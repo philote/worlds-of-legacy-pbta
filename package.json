@@ -1,0 +1,22 @@
+{
+  "name": "worlds-of-legacy-pbta",
+  "version": "2.0.0",
+  "description": "CSS compiler & linting for the Worlds of Legacy system",
+  "scripts": {
+    "build": "sass src/scss/worlds-of-legacy-pbta.scss css/worlds-of-legacy-pbta.css --style=expanded --no-source-map",
+    "watch": "sass src/scss/worlds-of-legacy-pbta.scss css/worlds-of-legacy-pbta.css --style=expanded --source-map --watch",
+    "pushLDBtoJSON": "node ./tools/pushLDBtoJSON.mjs",
+    "pullJSONtoLDB": "node ./tools/pullJSONtoLDB.mjs",
+    "createSymlinks": "node ./tools/create-symlinks.mjs"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "Joseph Hopson",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.3",
+    "sass": "^1.53.0"
+  }
+}
