@@ -319,7 +319,7 @@ All text needs to be moved to `lang/en.json` with proper WOL namespace:
 3. **✅ Phase 3**: Add missing character basic moves
 4. **✅ Phase 4**: Add missing family basic moves
 5. **✅ Phase 5**: Implement Story & Scale moves
-6. **Phase 6**: Create equipment system with tags
+6. **✅ Phase 6**: Create equipment system with tags
 7. **Phase 7**: Add resource systems (Tech, Data, Treaty)
 8. **Phase 8**: Create example playbooks
 9. **Phase 9**: Implement advanced mechanics (harm improvements, wonders, fronts)
@@ -376,5 +376,20 @@ All text needs to be moved to `lang/en.json` with proper WOL namespace:
 - ✅ **Right Tool for the Job** - Spend appropriate Surplus to solve problems without rolling
 
 **Story Move Coverage:** 6 story moves implemented, providing the essential framework for Legacy's dual-scale gameplay and resource management systems.
+
+## Phase 6 Completion Status ✅
+
+**Equipment Tag System Implemented:**
+- ✅ **Weapon Tags** - Melee, Ranged, Area, Aberrant, Brutal, Elegant, Far, Hidden, Many, Non-lethal, Silent, Unreliable
+- ✅ **Armor Tags** - Camo, Regal, Utility, Comms, Hardened, Implanted, Mantle, Mobile, Powered, Sealed, Thermo, Tough
+- ✅ **Vehicle Tags** - Land, Air, Water, Space, Swift, Transport, Medbay, Canopy
+
+**Equipment Type System:**
+- ✅ **Character Equipment Types** - Armoury, Outfit, Vehicles, Followers, Intel, Devices
+- ✅ **Family Equipment Type** - Assets
+- ✅ **Tag Configuration** - Full tag system with localized descriptions
+- ✅ **Example Equipment** - Sample items demonstrating tag usage (Wasteland Blade, Scavenged Rifle, Hazmat Suit, Grav-Bike)
+
+**Equipment Coverage:** Complete tag system with 24+ equipment tags covering all Legacy gear categories, plus proper equipment type categorization for both characters and families.
 
 This configuration will provide the foundation for Legacy's unique dual-scale PbtA gameplay while maintaining compatibility with the base PbtA system structure.

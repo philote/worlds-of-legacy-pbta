@@ -1,0 +1,60 @@
+{
+  "name": "Grav-Bike",
+  "type": "equipment",
+  "_id": "GravBike001",
+  "img": "icons/tools/navigation/hourglass-blue.svg",
+  "system": {
+    "description": "<p>A sleek hovering vehicle from the World Before, capable of swift movement over any terrain.</p>",
+    "equipmentType": "vehicles",
+    "harm": 0,
+    "armor": 0,
+    "uses": 0,
+    "forward": 0,
+    "ongoing": 0,
+    "hold": 0,
+    "rollFormula": "",
+    "rollMode": "ask",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "",
+    "attribute": "",
+    "moveResults": {},
+    "choices": "",
+    "tags": [
+      {
+        "name": "Air",
+        "value": "WOL.Tags.equipment.air.value",
+        "description": "WOL.Tags.equipment.air.description"
+      },
+      {
+        "name": "Swift",
+        "value": "WOL.Tags.equipment.swift.value",
+        "description": "WOL.Tags.equipment.swift.description"
+      },
+      {
+        "name": "Powered",
+        "value": "WOL.Tags.equipment.powered.value",
+        "description": "WOL.Tags.equipment.powered.description"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!GravBike001"
+}

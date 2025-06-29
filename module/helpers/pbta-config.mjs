@@ -150,8 +150,23 @@ export const configSheet = async () => {
                     }
                 },
                 equipmentTypes: {
-                  equipment: {
-                    label: game.i18n.localize('WOL.CharacterSheets.equipmentLabel'),
+                  armoury: {
+                    label: game.i18n.localize('WOL.CharacterSheets.equipmentTypes.armouryLabel'),
+                  },
+                  outfit: {
+                    label: game.i18n.localize('WOL.CharacterSheets.equipmentTypes.outfitLabel'),
+                  },
+                  vehicles: {
+                    label: game.i18n.localize('WOL.CharacterSheets.equipmentTypes.vehiclesLabel'),
+                  },
+                  followers: {
+                    label: game.i18n.localize('WOL.CharacterSheets.equipmentTypes.followersLabel'),
+                  },
+                  intel: {
+                    label: game.i18n.localize('WOL.CharacterSheets.equipmentTypes.intelLabel'),
+                  },
+                  devices: {
+                    label: game.i18n.localize('WOL.CharacterSheets.equipmentTypes.devicesLabel'),
                   },
                 },
             },
@@ -344,21 +359,54 @@ export function pbtaSettings() {
  * Tag configuration for the PbtA system
  */
 export const tagConfig = {
-      // Tags available to any actor and item
-      actor: {
-        // Tags available to all actors
+    actor: {
         all: '',
-        // Tags available to a specific actor type set up on game.pbta.sheetConfig.actorTypes (e.g. "character", "npc")
         character: '',
-        npc: ''
+        npc: '',
+        family: ''
     },
     item: {
-        // Tags available to all actors
         all: '',
-        // Tags available to a specific item type (e.g. "equipment", "move")
+        // Equipment tags for all gear types
         equipment:
-            '[{"value":"WOL.Tags.equipment.strong.value", "editable":false, "description":"WOL.Tags.equipment.strong.description"}, ' +
-            '{"value":"WOL.Tags.equipment.weak.value", "editable":false, "description":"WOL.Tags.equipment.weak.description"}, ' +
-            '{"value":"WOL.Tags.equipment.glows.value", "editable":false, "description":"WOL.Tags.equipment.glows.description"}]',
+            // Armoury (Weapon) Tags
+            '[{"value":"WOL.Tags.equipment.melee.value", "editable":false, "description":"WOL.Tags.equipment.melee.description"}, ' +
+            '{"value":"WOL.Tags.equipment.ranged.value", "editable":false, "description":"WOL.Tags.equipment.ranged.description"}, ' +
+            '{"value":"WOL.Tags.equipment.area.value", "editable":false, "description":"WOL.Tags.equipment.area.description"}, ' +
+            '{"value":"WOL.Tags.equipment.aberrant.value", "editable":false, "description":"WOL.Tags.equipment.aberrant.description"}, ' +
+            '{"value":"WOL.Tags.equipment.brutal.value", "editable":false, "description":"WOL.Tags.equipment.brutal.description"}, ' +
+            '{"value":"WOL.Tags.equipment.elegant.value", "editable":false, "description":"WOL.Tags.equipment.elegant.description"}, ' +
+            '{"value":"WOL.Tags.equipment.far.value", "editable":false, "description":"WOL.Tags.equipment.far.description"}, ' +
+            '{"value":"WOL.Tags.equipment.hidden.value", "editable":false, "description":"WOL.Tags.equipment.hidden.description"}, ' +
+            '{"value":"WOL.Tags.equipment.many.value", "editable":false, "description":"WOL.Tags.equipment.many.description"}, ' +
+            '{"value":"WOL.Tags.equipment.non-lethal.value", "editable":false, "description":"WOL.Tags.equipment.non-lethal.description"}, ' +
+            '{"value":"WOL.Tags.equipment.silent.value", "editable":false, "description":"WOL.Tags.equipment.silent.description"}, ' +
+            '{"value":"WOL.Tags.equipment.unreliable.value", "editable":false, "description":"WOL.Tags.equipment.unreliable.description"}, ' +
+            // Outfit (Armor/Clothing) Tags
+            '{"value":"WOL.Tags.equipment.camo.value", "editable":false, "description":"WOL.Tags.equipment.camo.description"}, ' +
+            '{"value":"WOL.Tags.equipment.regal.value", "editable":false, "description":"WOL.Tags.equipment.regal.description"}, ' +
+            '{"value":"WOL.Tags.equipment.utility.value", "editable":false, "description":"WOL.Tags.equipment.utility.description"}, ' +
+            '{"value":"WOL.Tags.equipment.comms.value", "editable":false, "description":"WOL.Tags.equipment.comms.description"}, ' +
+            '{"value":"WOL.Tags.equipment.hardened.value", "editable":false, "description":"WOL.Tags.equipment.hardened.description"}, ' +
+            '{"value":"WOL.Tags.equipment.implanted.value", "editable":false, "description":"WOL.Tags.equipment.implanted.description"}, ' +
+            '{"value":"WOL.Tags.equipment.mantle.value", "editable":false, "description":"WOL.Tags.equipment.mantle.description"}, ' +
+            '{"value":"WOL.Tags.equipment.mobile.value", "editable":false, "description":"WOL.Tags.equipment.mobile.description"}, ' +
+            '{"value":"WOL.Tags.equipment.powered.value", "editable":false, "description":"WOL.Tags.equipment.powered.description"}, ' +
+            '{"value":"WOL.Tags.equipment.sealed.value", "editable":false, "description":"WOL.Tags.equipment.sealed.description"}, ' +
+            '{"value":"WOL.Tags.equipment.thermo.value", "editable":false, "description":"WOL.Tags.equipment.thermo.description"}, ' +
+            '{"value":"WOL.Tags.equipment.tough.value", "editable":false, "description":"WOL.Tags.equipment.tough.description"}, ' +
+            // Vehicle Tags
+            '{"value":"WOL.Tags.equipment.land.value", "editable":false, "description":"WOL.Tags.equipment.land.description"}, ' +
+            '{"value":"WOL.Tags.equipment.air.value", "editable":false, "description":"WOL.Tags.equipment.air.description"}, ' +
+            '{"value":"WOL.Tags.equipment.water.value", "editable":false, "description":"WOL.Tags.equipment.water.description"}, ' +
+            '{"value":"WOL.Tags.equipment.space.value", "editable":false, "description":"WOL.Tags.equipment.space.description"}, ' +
+            '{"value":"WOL.Tags.equipment.swift.value", "editable":false, "description":"WOL.Tags.equipment.swift.description"}, ' +
+            '{"value":"WOL.Tags.equipment.transport.value", "editable":false, "description":"WOL.Tags.equipment.transport.description"}, ' +
+            '{"value":"WOL.Tags.equipment.medbay.value", "editable":false, "description":"WOL.Tags.equipment.medbay.description"}, ' +
+            '{"value":"WOL.Tags.equipment.canopy.value", "editable":false, "description":"WOL.Tags.equipment.canopy.description"}]',
+        // Move tags (if needed for future expansion)
+        move: '',
+        // Other item types can be added here
+        playbook: ''
     },
 };  

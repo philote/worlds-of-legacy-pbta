@@ -42,7 +42,15 @@
                     }
                 }
             },
-            "equipmentLabel": "Equipment"
+            "equipmentLabel": "Equipment",
+            "equipmentTypes": {
+                "armouryLabel": "Armoury",
+                "outfitLabel": "Outfit", 
+                "vehiclesLabel": "Vehicles",
+                "followersLabel": "Followers",
+                "intelLabel": "Intel",
+                "devicesLabel": "Devices"
+            }
         },
         "NPCSheets": {
             "attr": {
@@ -90,17 +98,133 @@
         },
         "Tags": {
             "equipment": {
-                "strong": {
-                    "value": "Strong",
-                    "description": "Very Strong"
+                "melee": {
+                    "value": "Melee",
+                    "description": "Close combat weapon"
                 },
-                "weak": {
-                    "value": "Weak",
-                    "description": "Pretty Weak"
+                "ranged": {
+                    "value": "Ranged",
+                    "description": "Projectile weapon"
                 },
-                "glows": {
-                    "value": "Glows",
-                    "description": "Acts as a torch"
+                "area": {
+                    "value": "Area",
+                    "description": "Affects multiple targets"
+                },
+                "aberrant": {
+                    "value": "Aberrant",
+                    "description": "Unnatural and disturbing"
+                },
+                "brutal": {
+                    "value": "Brutal",
+                    "description": "Causes terrible wounds"
+                },
+                "elegant": {
+                    "value": "Elegant",
+                    "description": "Refined and sophisticated"
+                },
+                "far": {
+                    "value": "Far",
+                    "description": "Extended range"
+                },
+                "hidden": {
+                    "value": "Hidden",
+                    "description": "Easily concealed"
+                },
+                "many": {
+                    "value": "Many",
+                    "description": "Abundant ammunition"
+                },
+                "non-lethal": {
+                    "value": "Non-lethal",
+                    "description": "Subdues rather than kills"
+                },
+                "silent": {
+                    "value": "Silent",
+                    "description": "Makes no noise when used"
+                },
+                "unreliable": {
+                    "value": "Unreliable",
+                    "description": "May malfunction or break"
+                },
+                "camo": {
+                    "value": "Camo",
+                    "description": "Provides concealment"
+                },
+                "regal": {
+                    "value": "Regal",
+                    "description": "Impressive and authoritative"
+                },
+                "utility": {
+                    "value": "Utility",
+                    "description": "Has built-in tools"
+                },
+                "comms": {
+                    "value": "Comms",
+                    "description": "Communication equipment"
+                },
+                "hardened": {
+                    "value": "Hardened",
+                    "description": "Resistant to damage"
+                },
+                "implanted": {
+                    "value": "Implanted",
+                    "description": "Surgically integrated"
+                },
+                "mantle": {
+                    "value": "Mantle",
+                    "description": "Symbol of authority"
+                },
+                "mobile": {
+                    "value": "Mobile",
+                    "description": "Enhances movement"
+                },
+                "powered": {
+                    "value": "Powered",
+                    "description": "Requires energy source"
+                },
+                "sealed": {
+                    "value": "Sealed",
+                    "description": "Environmental protection"
+                },
+                "thermo": {
+                    "value": "Thermo",
+                    "description": "Temperature regulation"
+                },
+                "tough": {
+                    "value": "Tough",
+                    "description": "Durable and long-lasting"
+                },
+                "land": {
+                    "value": "Land",
+                    "description": "Ground vehicle"
+                },
+                "air": {
+                    "value": "Air",
+                    "description": "Flying vehicle"
+                },
+                "water": {
+                    "value": "Water",
+                    "description": "Watercraft"
+                },
+                "space": {
+                    "value": "Space",
+                    "description": "Spacecraft"
+                },
+                "swift": {
+                    "value": "Swift",
+                    "description": "Fast and agile"
+                },
+                "transport": {
+                    "value": "Transport",
+                    "description": "Carries cargo or passengers"
+                },
+                "medbay": {
+                    "value": "Medbay",
+                    "description": "Medical facilities"
+                },
+                "canopy": {
+                    "value": "Canopy",
+                    "description": "Overhead protection"
                 }
             }
         },
