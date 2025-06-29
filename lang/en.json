@@ -40,7 +40,8 @@
                         "2": "Ashamed",
                         "3": "Corrupt"
                     }
-                }
+                },
+                "doctrineLabel": "Doctrine"
             },
             "equipmentLabel": "Equipment",
             "equipmentTypes": {
@@ -83,7 +84,12 @@
                         "1": "Mature (3-5 Ages)", 
                         "2": "Elder (6+ Ages)"
                     }
-                }
+                },
+                "techLabel": "Tech",
+                "dataLabel": "Data",
+                "treatyLabel": "Treaty",
+                "surplusLabel": "Surplus",
+                "needLabel": "Need"
             },
             "details": {
                 "doctrineLabel": "Doctrine",

@@ -122,6 +122,15 @@ export const configSheet = async () => {
                             },
                         },
                     },
+                    doctrine: {
+                        label: game.i18n.localize("WOL.CharacterSheets.attr.doctrineLabel"),
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        type: "Number",
+                        value: 0,
+                        position: "Left"
+                    },
                 },
                 details: {
                     looks: {
@@ -263,6 +272,51 @@ export const configSheet = async () => {
                         max: 4,
                         steps: Array(4).fill(false),
                         position: "Top"
+                    },
+                    tech: {
+                        label: game.i18n.localize("WOL.FamilySheets.attr.techLabel"),
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        type: "Number",
+                        value: 0,
+                        position: "Top"
+                    },
+                    data: {
+                        label: game.i18n.localize("WOL.FamilySheets.attr.dataLabel"),
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        type: "Number",
+                        value: 0,
+                        position: "Top"
+                    },
+                    treaty: {
+                        label: game.i18n.localize("WOL.FamilySheets.attr.treatyLabel"),
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        type: "Number",
+                        value: 0,
+                        position: "Top"
+                    },
+                    surplus: {
+                        label: game.i18n.localize("WOL.FamilySheets.attr.surplusLabel"),
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        type: "Text",
+                        value: "",
+                        position: "Left"
+                    },
+                    need: {
+                        label: game.i18n.localize("WOL.FamilySheets.attr.needLabel"),
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        type: "Text",
+                        value: "",
+                        position: "Left"
                     },
                     age: {
                         label: game.i18n.localize("WOL.FamilySheets.attr.ageLabel"),
