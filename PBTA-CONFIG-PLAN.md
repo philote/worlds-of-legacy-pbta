@@ -363,4 +363,18 @@ All text needs to be moved to `lang/en.json` with proper WOL namespace:
 
 **Family Move Coverage:** 11+ family moves implemented, providing comprehensive family-level gameplay coverage including territory control, diplomacy, intelligence, unity, and resource management.
 
+## Phase 5 Completion Status ✅
+
+**Story & Scale Moves Implemented:**
+- ✅ **Zoom In** - Transition from family to character-level play
+- ✅ **Zoom Out** - Return from character to family-level play
+- ✅ **The Age Turns** - Handle generational time passage (roll +Mood manually)
+- ✅ **In Want** - Manage family crises and desperation (roll +Needs manually)
+
+**Resource Management Moves:**
+- ✅ **Finding a Surplus** - Add new resources to family
+- ✅ **Right Tool for the Job** - Spend appropriate Surplus to solve problems without rolling
+
+**Story Move Coverage:** 6 story moves implemented, providing the essential framework for Legacy's dual-scale gameplay and resource management systems.
+
 This configuration will provide the foundation for Legacy's unique dual-scale PbtA gameplay while maintaining compatibility with the base PbtA system structure.
