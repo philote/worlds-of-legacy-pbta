@@ -2,10 +2,10 @@
   "name": "Wasteland Survival",
   "type": "move",
   "_id": "80eOtgKYDkHTmFXF",
-  "img": "icons/environment/wilderness/terrain-badlands-orange.svg",
+  "img": "icons/svg/aura.svg",
   "system": {
     "description": "<p>When you navigate through the wasteland outside of settled lands, roll +Steel.</p>",
-    "rollType": "stat",
+    "rollType": "",
     "rollMod": 0,
     "stat": "steel",
     "moveResults": {
@@ -29,13 +29,14 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "systemVersion": "1.1.21",
+    "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "modifiedTime": 1751222296743,
+    "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!80eOtgKYDkHTmFXF"
 }

@@ -2,7 +2,7 @@
   "name": "Weird Grenades",
   "type": "equipment",
   "_id": "7HvhAi0DEjeaRfyd",
-  "img": "icons/weapons/thrown/bomb-fuse-steel.svg",
+  "img": "icons/svg/item-bag.svg",
   "system": {
     "description": "<p>Strange explosive devices with unpredictable effects, mentioned specifically in the SRD.</p>",
     "equipmentType": "armoury",
@@ -21,23 +21,7 @@
     "attribute": "",
     "moveResults": {},
     "choices": "",
-    "tags": [
-      {
-        "name": "Area",
-        "value": "WOL.Tags.equipment.area.value",
-        "description": "WOL.Tags.equipment.area.description"
-      },
-      {
-        "name": "Aberrant",
-        "value": "WOL.Tags.equipment.aberrant.value",
-        "description": "WOL.Tags.equipment.aberrant.description"
-      },
-      {
-        "name": "Many",
-        "value": "WOL.Tags.equipment.many.value",
-        "description": "WOL.Tags.equipment.many.description"
-      }
-    ]
+    "tags": "[{\"value\":\"[object Object],[object Object],[object Object]\"}]"
   },
   "effects": [],
   "folder": null,
@@ -48,13 +32,14 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "systemVersion": "1.1.21",
+    "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "modifiedTime": 1751222393535,
+    "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!7HvhAi0DEjeaRfyd"
 }

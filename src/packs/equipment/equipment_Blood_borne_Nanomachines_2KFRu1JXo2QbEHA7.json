@@ -2,7 +2,7 @@
   "name": "Blood-borne Nanomachines",
   "type": "equipment",
   "_id": "2KFRu1JXo2QbEHA7",
-  "img": "icons/tools/scribal/ink-bottle.svg",
+  "img": "icons/svg/item-bag.svg",
   "system": {
     "description": "<p>Microscopic machines that integrate with your bloodstream, mentioned specifically in the SRD.</p>",
     "equipmentType": "outfit",
@@ -21,18 +21,7 @@
     "attribute": "",
     "moveResults": {},
     "choices": "",
-    "tags": [
-      {
-        "name": "Implanted",
-        "value": "WOL.Tags.equipment.implanted.value",
-        "description": "WOL.Tags.equipment.implanted.description"
-      },
-      {
-        "name": "Mantle",
-        "value": "WOL.Tags.equipment.mantle.value",
-        "description": "WOL.Tags.equipment.mantle.description"
-      }
-    ]
+    "tags": "[{\"value\":\"WOL.Tags.equipment.implanted.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.implanted.description\"},{\"value\":\"WOL.Tags.equipment.mantle.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.mantle.description\"}]"
   },
   "effects": [],
   "folder": null,
@@ -43,13 +32,14 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "systemVersion": "1.1.21",
+    "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "modifiedTime": 1751222454849,
+    "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!2KFRu1JXo2QbEHA7"
 }

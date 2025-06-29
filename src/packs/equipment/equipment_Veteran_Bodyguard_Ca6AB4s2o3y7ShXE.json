@@ -2,7 +2,7 @@
   "name": "Veteran Bodyguard",
   "type": "equipment",
   "_id": "Ca6AB4s2o3y7ShXE",
-  "img": "icons/environment/people/commoner.svg",
+  "img": "icons/svg/item-bag.svg",
   "system": {
     "description": "<p>A seasoned warrior who has sworn to protect you. Quality +2, Specialty: Combat and Intimidation.</p>",
     "equipmentType": "followers",
@@ -33,12 +33,13 @@
   "_stats": {
     "systemId": "pbta",
     "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "modifiedTime": 1751222402317,
+    "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!Ca6AB4s2o3y7ShXE"
 }

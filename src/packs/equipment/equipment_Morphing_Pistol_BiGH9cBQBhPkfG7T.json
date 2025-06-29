@@ -2,7 +2,7 @@
   "name": "Morphing Pistol",
   "type": "equipment",
   "_id": "BiGH9cBQBhPkfG7T",
-  "img": "icons/weapons/guns/pistol-brown.svg",
+  "img": "icons/svg/item-bag.svg",
   "system": {
     "description": "<p>A weapon that can shift its shape to avoid detection, mentioned specifically in the SRD.</p>",
     "equipmentType": "armoury",
@@ -21,18 +21,7 @@
     "attribute": "",
     "moveResults": {},
     "choices": "",
-    "tags": [
-      {
-        "name": "Ranged",
-        "value": "WOL.Tags.equipment.ranged.value",
-        "description": "WOL.Tags.equipment.ranged.description"
-      },
-      {
-        "name": "Hidden",
-        "value": "WOL.Tags.equipment.hidden.value",
-        "description": "WOL.Tags.equipment.hidden.description"
-      }
-    ]
+    "tags": "[{\"value\":\"[object Object],[object Object]\"}]"
   },
   "effects": [],
   "folder": null,
@@ -43,13 +32,14 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "systemVersion": "1.1.21",
+    "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "modifiedTime": 1751222415538,
+    "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!BiGH9cBQBhPkfG7T"
 }

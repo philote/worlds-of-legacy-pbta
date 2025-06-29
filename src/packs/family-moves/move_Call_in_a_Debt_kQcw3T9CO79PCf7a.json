@@ -41,12 +41,13 @@
   "_stats": {
     "systemId": "pbta",
     "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "coreVersion": "13.346",
     "createdTime": null,
     "modifiedTime": null,
     "lastModifiedBy": null,
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!kQcw3T9CO79PCf7a"
 }

@@ -2,7 +2,7 @@
   "name": "Scout Report",
   "type": "equipment",
   "_id": "XalU6JfzB3FFtcyF",
-  "img": "icons/sundries/documents/document-sealed-brown.svg",
+  "img": "icons/svg/item-bag.svg",
   "system": {
     "description": "<p>Detailed intelligence on local terrain, threats, and opportunities gathered by family scouts.</p>",
     "equipmentType": "intel",
@@ -33,12 +33,13 @@
   "_stats": {
     "systemId": "pbta",
     "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "modifiedTime": 1751222408015,
+    "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!XalU6JfzB3FFtcyF"
 }

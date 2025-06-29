@@ -2,7 +2,7 @@
   "name": "Hazmat Suit",
   "type": "equipment",
   "_id": "tMAS0lDdmoQpzam7",
-  "img": "icons/equipment/chest/shirt-simple-white.svg",
+  "img": "icons/svg/item-bag.svg",
   "system": {
     "description": "<p>A full-body protective suit from the World Before, offering protection against environmental hazards.</p>",
     "equipmentType": "outfit",
@@ -21,18 +21,7 @@
     "attribute": "",
     "moveResults": {},
     "choices": "",
-    "tags": [
-      {
-        "name": "Sealed",
-        "value": "WOL.Tags.equipment.sealed.value",
-        "description": "WOL.Tags.equipment.sealed.description"
-      },
-      {
-        "name": "Utility",
-        "value": "WOL.Tags.equipment.utility.value",
-        "description": "WOL.Tags.equipment.utility.description"
-      }
-    ]
+    "tags": "[{\"value\":\"[object Object],[object Object]\"}]"
   },
   "effects": [],
   "folder": null,
@@ -43,13 +32,14 @@
   "flags": {},
   "_stats": {
     "systemId": "pbta",
-    "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "systemVersion": "1.1.21",
+    "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "modifiedTime": 1751222426880,
+    "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!tMAS0lDdmoQpzam7"
 }
