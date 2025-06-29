@@ -4,24 +4,24 @@
   "_id": "Subterfuge001",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you infiltrate other factions to spread false information, steal secrets, or hide your actions, roll +Sleight.</p>",
+    "description": "<p>When your Family infiltrates other factions, say what they try to do:</p><ul><li>They make a resource appear more or less desirable.</li><li>They cause a scandal within a Family's/Faction's organisation.</li><li>They hide your own involvement in an action; you may frame someone else in their place if you wish.</li><li>They sabotage a particular asset, making it fail at a moment of your choosing.</li></ul><p>Roll +Sleight.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
         "label": "Miss (6-)",
-        "value": "<p>Your deception is discovered. You're exposed, your agents are compromised, or your true intentions are revealed to your enemies.</p>"
+        "value": "<p>Your infiltration fails and you are exposed. Face the consequences of your discovered deception.</p>"
       },
       "partial": {
         "key": "system.moveResults.partial.value",
         "label": "Weak Hit (7-9)",
-        "value": "<p>Your subterfuge succeeds, but choose one: you leave traces that could be followed back to you, you only achieve part of your goal, or you have to sacrifice something valuable to maintain your cover.</p>"
+        "value": "<p>On a 7-9 they do it. However, the GM names a clue you leave behind, or a family or faction that sees through the deception.</p>"
       },
       "success": {
         "key": "system.moveResults.success.value",
         "label": "Strong Hit (10+)",
-        "value": "<p>Your deception works perfectly. You achieve your goal without detection and may gain additional intelligence or advantages.</p>"
+        "value": "<p>On a hit, they do it.</p>"
       }
     },
     "uses": 0,

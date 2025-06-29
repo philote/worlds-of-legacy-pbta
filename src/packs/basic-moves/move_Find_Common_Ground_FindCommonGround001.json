@@ -4,24 +4,24 @@
   "_id": "FindCommonGround001",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you ask someone to work with you toward a shared goal, roll +Sway.</p>",
+    "description": "<p>When you ask someone to work with you, roll +Sway. On a hit they'll do it if you meet their terms.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
         "label": "Miss (6-)",
-        "value": "<p>They refuse and become suspicious of your motives. Future attempts to work with them will be much harder.</p>"
+        "value": "<p>They refuse outright or make demands you cannot meet.</p>"
       },
       "partial": {
         "key": "system.moveResults.partial.value",
         "label": "Weak Hit (7-9)",
-        "value": "<p>They'll work with you, but choose one: they want something significant in return, they'll only help in limited ways, or they bring their own agenda to the partnership.</p>"
+        "value": "<p>On 7-9 their player picks two and both must be met:</p><p><strong>They'll only do it if...</strong></p><ul><li>...a third party vouches for you.</li><li>...they can add or remove specific things to the task.</li><li>...they can back out as soon as the task costs them anything.</li><li>...you reduce the threat you pose to them.</li><li>...you can give them something now that's worth it.</li><li>...you reveal your full agenda here.</li><li>...their faction/family gets 1 Treaty on your Family.</li></ul>"
       },
       "success": {
         "key": "system.moveResults.success.value",
         "label": "Strong Hit (10+)",
-        "value": "<p>They see the mutual benefit and agree to work together. They'll provide meaningful assistance toward your shared goal.</p>"
+        "value": "<p>On a 10+ they pick one:</p><p><strong>They'll only do it if...</strong></p><ul><li>...a third party vouches for you.</li><li>...they can add or remove specific things to the task.</li><li>...they can back out as soon as the task costs them anything.</li><li>...you reduce the threat you pose to them.</li><li>...you can give them something now that's worth it.</li><li>...you reveal your full agenda here.</li><li>...their faction/family gets 1 Treaty on your Family.</li></ul>"
       }
     },
     "uses": 0,

@@ -4,24 +4,24 @@
   "_id": "ConductDiplomacy001",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you call on your allies for meetings, access, or information, roll +Reach.</p>",
+    "description": "<p>When you call on your Family's allies, say what you want from them:</p><ul><li>A meeting with one of their VIPs.</li><li>Access to a tightly-guarded location or item.</li><li>Information on an opportunity or threat.</li></ul><p>Roll +Reach.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
         "label": "Miss (6-)",
-        "value": "<p>Your allies are unavailable, unwilling, or demand too high a price. You may strain relationships or reveal your needs to rivals.</p>"
+        "value": "<p>Your allies are unwilling or unable to help, and word of your request may reach unfriendly ears.</p>"
       },
       "partial": {
         "key": "system.moveResults.partial.value",
         "label": "Weak Hit (7-9)",
-        "value": "<p>Your allies respond, but choose one: they want a significant favor in return, they can only provide limited assistance, or word of your request spreads to others.</p>"
+        "value": "<p>On a 7-9, you get what you wanted and 1 Data. However, your agents had to get help from a third party. Say which of your allies helped them seal the deal, and give them 1-Treaty on you.</p>"
       },
       "success": {
         "key": "system.moveResults.success.value",
         "label": "Strong Hit (10+)",
-        "value": "<p>Your allies readily provide what you need. They may also offer additional assistance or useful information.</p>"
+        "value": "<p>On a hit, you get what you wanted and 1 Data.</p>"
       }
     },
     "uses": 0,

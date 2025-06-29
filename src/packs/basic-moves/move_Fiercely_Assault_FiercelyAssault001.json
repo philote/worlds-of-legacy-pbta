@@ -4,24 +4,24 @@
   "_id": "FiercelyAssault001",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you fight savagely and without restraint, roll +Force.</p>",
+    "description": "<p>When you use an appropriate weapon to hurt, capture or drive off your enemies, roll +Force. On a hit, you've achieved your goal: they're wounded, bound or fleeing.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
         "label": "Miss (6-)",
-        "value": "<p>Your reckless assault leaves you open. You suffer their full attack and face additional consequences.</p>"
+        "value": "<p>Your attack fails and you face the full consequences of your aggression.</p>"
       },
       "partial": {
         "key": "system.moveResults.partial.value",
         "label": "Weak Hit (7-9)",
-        "value": "<p>You deal devastating damage, but choose one: you take their attack in return, you damage something you didn't mean to, or you lose control and can't stop fighting.</p>"
+        "value": "<p>On a 7-9, you choose one and the GM chooses two:</p><p><strong>Character List:</strong></p><ul><li>Your avenue of escape is clear.</li><li>You inflict savage, terrifying harm, frightening and dismaying your foes.</li><li>You scavenge something valuable: gain a Device.</li><li>You get information from your foes – get 1 Data.</li></ul><p><strong>GM List:</strong></p><ul><li>Something or someone important to you is harmed.</li><li>Others will come after you.</li><li>You take Harm appropriate to the enemy.</li><li>The situation is destabilised and chaos will follow.</li></ul>"
       },
       "success": {
         "key": "system.moveResults.success.value",
         "label": "Strong Hit (10+)",
-        "value": "<p>You overwhelm them completely. Deal extra damage and choose whether to show mercy or continue the assault.</p>"
+        "value": "<p>On a 10+, you choose two and the GM chooses one:</p><p><strong>Character List:</strong></p><ul><li>Your avenue of escape is clear.</li><li>You inflict savage, terrifying harm, frightening and dismaying your foes.</li><li>You scavenge something valuable: gain a Device.</li><li>You get information from your foes – get 1 Data.</li></ul><p><strong>GM List:</strong></p><ul><li>Something or someone important to you is harmed.</li><li>Others will come after you.</li><li>You take Harm appropriate to the enemy.</li><li>The situation is destabilised and chaos will follow.</li></ul>"
       }
     },
     "uses": 0,
