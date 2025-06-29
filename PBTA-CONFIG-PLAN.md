@@ -1,0 +1,322 @@
+# PbtA Configuration Plan for Legacy: Life Among the Ruins
+
+This document outlines the planned structure for the `module/helpers/pbta-config.mjs` file to implement Legacy's dual-scale gameplay system.
+
+## Configuration Structure Overview
+
+The configuration needs to support two distinct actor types:
+1. **Character** - Individual heroes with Force/Sway/Steel/Lore stats
+2. **Family** - Group entities with Reach/Grasp/Sleight stats and resource management
+
+## Phase 1: Core Character Configuration
+
+### Character Stats
+```javascript
+stats: {
+    force: {
+        label: game.i18n.localize("WOL.CharacterSheets.stats.force"),
+        value: 0
+    },
+    sway: {
+        label: game.i18n.localize("WOL.CharacterSheets.stats.sway"),
+        value: 0
+    },
+    steel: {
+        label: game.i18n.localize("WOL.CharacterSheets.stats.steel"),
+        value: 0
+    },
+    lore: {
+        label: game.i18n.localize("WOL.CharacterSheets.stats.lore"),
+        value: 0
+    }
+}
+```
+
+### Character Attributes
+```javascript
+attributes: {
+    // Experience through roles
+    leader: {
+        label: game.i18n.localize("WOL.CharacterSheets.roles.leader"),
+        type: "Checkbox",
+        value: false,
+        position: "Top"
+    },
+    agent: {
+        label: game.i18n.localize("WOL.CharacterSheets.roles.agent"),
+        type: "Checkbox", 
+        value: false,
+        position: "Top"
+    },
+    rebel: {
+        label: game.i18n.localize("WOL.CharacterSheets.roles.rebel"),
+        type: "Checkbox",
+        value: false,
+        position: "Top"
+    },
+    outsider: {
+        label: game.i18n.localize("WOL.CharacterSheets.roles.outsider"),
+        type: "Checkbox",
+        value: false,
+        position: "Top"
+    },
+    
+    // Resources
+    data: {
+        label: game.i18n.localize("WOL.CharacterSheets.attr.data"),
+        type: "Number",
+        value: 0,
+        position: "Top"
+    },
+    
+    // Harm system (5 boxes)
+    harm: {
+        label: game.i18n.localize("WOL.CharacterSheets.attr.harm"),
+        type: "Clock",
+        value: 0,
+        max: 5,
+        steps: Array(5).fill(false),
+        position: "Left"
+    }
+}
+```
+
+### Character Move Types
+```javascript
+moveTypes: {
+    basic: {
+        label: game.i18n.localize("WOL.CharacterSheets.moveTypes.basic"),
+        moves: [] // Core moves available to all characters
+    },
+    peripheral: {
+        label: game.i18n.localize("WOL.CharacterSheets.moveTypes.peripheral"),
+        moves: [] // Situational moves
+    },
+    playbook: {
+        label: game.i18n.localize("WOL.CharacterSheets.moveTypes.playbook"),
+        moves: [],
+        playbook: true // Specific to character type
+    }
+}
+```
+
+### Character Equipment Types
+```javascript
+equipmentTypes: {
+    armoury: {
+        label: game.i18n.localize("WOL.CharacterSheets.equipment.armoury")
+    },
+    outfit: {
+        label: game.i18n.localize("WOL.CharacterSheets.equipment.outfit")
+    },
+    vehicles: {
+        label: game.i18n.localize("WOL.CharacterSheets.equipment.vehicles")
+    },
+    devices: {
+        label: game.i18n.localize("WOL.CharacterSheets.equipment.devices")
+    }
+}
+```
+
+## Phase 2: Family Actor Type Configuration
+
+### Family Stats
+```javascript
+family: {
+    stats: {
+        reach: {
+            label: game.i18n.localize("WOL.FamilySheets.stats.reach"),
+            value: 0
+        },
+        grasp: {
+            label: game.i18n.localize("WOL.FamilySheets.stats.grasp"),
+            value: 0
+        },
+        sleight: {
+            label: game.i18n.localize("WOL.FamilySheets.stats.sleight"),
+            value: 0
+        }
+    }
+}
+```
+
+### Family Attributes
+```javascript
+attributes: {
+    // Core Resources
+    tech: {
+        label: game.i18n.localize("WOL.FamilySheets.attr.tech"),
+        type: "Number",
+        value: 0,
+        position: "Top"
+    },
+    mood: {
+        label: game.i18n.localize("WOL.FamilySheets.attr.mood"),
+        type: "Number",
+        value: 0,
+        position: "Top"
+    },
+    
+    // Lifestyle
+    lifestyle: {
+        label: game.i18n.localize("WOL.FamilySheets.attr.lifestyle"),
+        type: "ListOne",
+        position: "Left",
+        options: {
+            nomadic: {
+                label: game.i18n.localize("WOL.FamilySheets.lifestyle.nomadic"),
+                value: false
+            },
+            dispersed: {
+                label: game.i18n.localize("WOL.FamilySheets.lifestyle.dispersed"),
+                value: false
+            },
+            settled: {
+                label: game.i18n.localize("WOL.FamilySheets.lifestyle.settled"),
+                value: false
+            }
+        }
+    },
+    
+    // Doctrine
+    doctrine: {
+        label: game.i18n.localize("WOL.FamilySheets.attr.doctrine"),
+        type: "Text",
+        position: "Left"
+    }
+}
+```
+
+### Family Move Types
+```javascript
+moveTypes: {
+    basic: {
+        label: game.i18n.localize("WOL.FamilySheets.moveTypes.basic"),
+        moves: [] // Hold Together, Claim by Force, etc.
+    },
+    playbook: {
+        label: game.i18n.localize("WOL.FamilySheets.moveTypes.playbook"), 
+        moves: [],
+        playbook: true // Family-specific moves
+    }
+}
+```
+
+## Phase 3: Resource Management System
+
+### Surplus/Need Tracking
+This will require custom implementation beyond standard PbtA attributes:
+
+```javascript
+// Custom surplus/need tracking system
+surpluses: {
+    label: game.i18n.localize("WOL.FamilySheets.surpluses"),
+    type: "Custom", // Will need special handling
+    position: "Left"
+},
+needs: {
+    label: game.i18n.localize("WOL.FamilySheets.needs"),
+    type: "Custom", // Will need special handling  
+    position: "Left"
+}
+```
+
+### Treaty Relationships
+This requires tracking relationships with other families:
+
+```javascript
+treaties: {
+    label: game.i18n.localize("WOL.FamilySheets.treaties"),
+    type: "Custom", // Relationship tracking system
+    position: "Right"
+}
+```
+
+## Roll Configuration
+
+### Roll Results
+```javascript
+rollResults: {
+    failure: {
+        start: -Infinity,
+        end: 6,
+        label: game.i18n.localize("WOL.rollResults.miss")
+    },
+    partial: {
+        start: 7,
+        end: 9,
+        label: game.i18n.localize("WOL.rollResults.partial")
+    },
+    success: {
+        start: 10,
+        end: 11,
+        label: game.i18n.localize("WOL.rollResults.success")
+    },
+    critical: {
+        start: 12,
+        end: Infinity,
+        label: game.i18n.localize("WOL.rollResults.critical")
+    }
+}
+```
+
+### Roll Formula
+```javascript
+rollFormula: "2d6",
+rollShifting: true, // Allow advantage/disadvantage
+```
+
+## Tag Configuration
+
+### Equipment Tags
+```javascript
+tagConfig: {
+    item: {
+        equipment: [
+            // Armoury tags
+            {value: "WOL.Tags.melee.value", editable: false},
+            {value: "WOL.Tags.ranged.value", editable: false},
+            {value: "WOL.Tags.area.value", editable: false},
+            {value: "WOL.Tags.brutal.value", editable: false},
+            // ... more weapon tags
+            
+            // Outfit tags  
+            {value: "WOL.Tags.camo.value", editable: false},
+            {value: "WOL.Tags.regal.value", editable: false},
+            {value: "WOL.Tags.utility.value", editable: false},
+            // ... more armor tags
+            
+            // Vehicle tags
+            {value: "WOL.Tags.land.value", editable: false},
+            {value: "WOL.Tags.swift.value", editable: false},
+            {value: "WOL.Tags.durable.value", editable: false}
+            // ... more vehicle tags
+        ]
+    }
+}
+```
+
+## Implementation Notes
+
+### Custom Systems Needed
+1. **Surplus/Need Management** - Not standard PbtA, needs custom UI
+2. **Treaty Relationships** - Relationship tracking between families
+3. **Age Advancement** - Time passage and character retirement
+4. **Wonder Projects** - Multi-surplus construction tracking
+5. **Role Advancement** - Non-XP character progression
+
+### Localization Keys Required
+All text needs to be moved to `lang/en.json` with proper WOL namespace:
+- Stats (force, sway, steel, lore, reach, grasp, sleight)
+- Attributes (roles, harm, tech, mood, etc.)
+- Move types and equipment categories
+- Roll results and conditions
+- Resource types (surpluses/needs)
+
+### Phase Implementation Strategy
+1. **Phase 1**: Implement basic character system with correct stats
+2. **Phase 2**: Add family actor type with basic functionality  
+3. **Phase 3**: Implement advanced resource management systems
+4. **Phase 4**: Add custom mechanics (treaties, wonders, ages)
+
+This configuration will provide the foundation for Legacy's unique dual-scale PbtA gameplay while maintaining compatibility with the base PbtA system structure.

@@ -66,7 +66,27 @@ The `foundry/` directory contains symlinked files from the target FoundryVTT ins
 - The `raw-assets` folder has several files:
     - Game documents are found in `raw-assets/book/`, here you will find the original PDF and a Markdown version. You should be able to use `tools/pdf-processor.mjs` and `pdf-splitter` to read the PDF files. (These are in gitignore because I don't want them on github, you have full access to them when you need them)
 
+## Project Context
+
+**Current Status**: This project was built from a PbtA Module Template and renamed to Worlds of Legacy. The data and structure are not yet ready for gameplay - this is the beginning of development.
+
+**Primary Goal**: Create a complete Legacy: Life Among the Ruins system implementation using the PbtA framework.
+
+**Key Resources**:
+- Game rules: `raw-assets/book/Worlds-of-Legacy-SRD.md` (complete SRD document)
+- PbtA system documentation: https://github.com/asacolips-projects/pbta/wiki
+- Example finished modules for reference:
+  - https://github.com/philote/pbta-rhapsodyofblood
+  - https://github.com/philote/urban-shadows-pbta
+  - https://github.com/philote/fellowship-pbta
+
+**Development Priority**:
+1. Create proper system structure in `module/helpers/pbta-config.mjs` based on Legacy SRD
+2. Customize PbtA sheets to accommodate unique Legacy data (dual-scale Family/Character gameplay)
+3. Build out compendium content (moves, playbooks, etc.)
+
 ## Important Notes
 - Never edit files in `packs/` directly - they're generated from `src/packs/`
 - Never edit files in `css/` directly - they're generated from `src/scss/`
 - The module heavily customizes the PbtA system - changes should respect this integration
+- PbtA wiki examples are in TOML format, but this project uses JSON - research needed for conversion
