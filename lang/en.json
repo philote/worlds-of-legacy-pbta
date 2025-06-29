@@ -221,6 +221,34 @@
                 "canopy": {
                     "value": "Canopy",
                     "description": "Overhead protection"
+                },
+                "durable": {
+                    "value": "Durable",
+                    "description": "Gets another Dinged box"
+                },
+                "mighty": {
+                    "value": "Mighty",
+                    "description": "Advantage on Forge a Path or Fiercely Assault"
+                },
+                "mount": {
+                    "value": "Mount",
+                    "description": "It's alive and follows simple commands"
+                },
+                "turret": {
+                    "value": "Turret",
+                    "description": "Ranged weapon gains area tag"
+                },
+                "quality": {
+                    "value": "Quality",
+                    "description": "Skill level bonus for followers"
+                },
+                "researching": {
+                    "value": "Researching",
+                    "description": "Specialty for scholar followers"
+                },
+                "assault": {
+                    "value": "Assault",
+                    "description": "Specialty for combat followers"
                 }
             }
         },

@@ -21,17 +21,39 @@ function generate16CharUUID() {
     return result;
 }
 
+// Check if an ID is a valid 16-character alphanumeric UUID
+function isValid16CharUUID(id) {
+    if (!id || id.length !== 16) return false;
+    const validChars = /^[A-Za-z0-9]+$/;
+    return validChars.test(id);
+}
+
 // Process a single JSON file
 async function processFile(filePath) {
     try {
-        console.log(`Processing: ${filePath}`);
+        console.log(`Checking: ${filePath}`);
         
         // Read and parse the JSON file
         const content = await readFile(filePath, 'utf8');
         const data = JSON.parse(content);
         
-        // Generate new 16-character UUID
-        const newUUID = generate16CharUUID();
+        // Check if ID is already valid AND filename contains the UUID
+        const filename = basename(filePath);
+        const hasUUIDInFilename = filename.includes(data._id);
+        
+        if (isValid16CharUUID(data._id) && hasUUIDInFilename) {
+            console.log(`  Skipping - already has valid UUID and filename: ${data._id}`);
+            return;
+        }
+        
+        if (isValid16CharUUID(data._id) && !hasUUIDInFilename) {
+            console.log(`  Processing - UUID valid but filename needs update: ${data._id}`);
+        } else {
+            console.log(`  Processing - invalid ID: ${data._id}`);
+        }
+        
+        // Use existing UUID if valid, otherwise generate new one
+        const newUUID = isValid16CharUUID(data._id) ? data._id : generate16CharUUID();
         
         // Update the JSON data
         const oldId = data._id;
@@ -45,11 +67,21 @@ async function processFile(filePath) {
         // Generate new filename
         const dir = dirname(filePath);
         const oldFilename = basename(filePath);
-        const newFilename = oldFilename.replace(oldId, newUUID);
+        let newFilename;
+        
+        if (oldFilename.includes(oldId)) {
+            // Replace old ID in filename
+            newFilename = oldFilename.replace(oldId, newUUID);
+        } else {
+            // Add UUID to filename if it doesn't contain any ID
+            const nameWithoutExt = oldFilename.replace('.json', '');
+            newFilename = `${nameWithoutExt}_${newUUID}.json`;
+        }
+        
         const newFilePath = join(dir, newFilename);
         
-        // Rename file if filename contains the old ID
-        if (oldFilename.includes(oldId)) {
+        // Rename file if it needs to be renamed
+        if (oldFilename !== newFilename) {
             await rename(filePath, newFilePath);
             console.log(`  Renamed: ${oldFilename} -> ${newFilename}`);
         }
@@ -79,20 +111,33 @@ async function processDirectory(dirPath) {
 
 // Main function
 async function main() {
-    const packsDir = join(__dirname, '..', 'src', 'packs');
+    const args = process.argv.slice(2);
     
-    try {
-        const packDirs = await readdir(packsDir);
-        
-        for (const packDir of packDirs) {
-            const packPath = join(packsDir, packDir);
-            console.log(`\nProcessing pack directory: ${packDir}`);
-            await processDirectory(packPath);
+    if (args.length > 0) {
+        // Process specific files provided as arguments
+        console.log('Processing specific files:');
+        for (const filePath of args) {
+            const absolutePath = join(process.cwd(), filePath);
+            await processFile(absolutePath);
         }
+        console.log('\nSpecified files have been processed!');
+    } else {
+        // Process all pack directories (original behavior)
+        const packsDir = join(__dirname, '..', 'src', 'packs');
         
-        console.log('\nAll pack items have been updated with 16-character UUIDs!');
-    } catch (error) {
-        console.error('Error:', error.message);
+        try {
+            const packDirs = await readdir(packsDir);
+            
+            for (const packDir of packDirs) {
+                const packPath = join(packsDir, packDir);
+                console.log(`\nProcessing pack directory: ${packDir}`);
+                await processDirectory(packPath);
+            }
+            
+            console.log('\nAll pack items have been updated with 16-character UUIDs!');
+        } catch (error) {
+            console.error('Error:', error.message);
+        }
     }
 }
 

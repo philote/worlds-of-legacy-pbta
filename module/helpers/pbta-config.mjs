@@ -378,7 +378,16 @@ export const tagConfig = {
             '{"value":"WOL.Tags.equipment.swift.value", "editable":false, "description":"WOL.Tags.equipment.swift.description"}, ' +
             '{"value":"WOL.Tags.equipment.transport.value", "editable":false, "description":"WOL.Tags.equipment.transport.description"}, ' +
             '{"value":"WOL.Tags.equipment.medbay.value", "editable":false, "description":"WOL.Tags.equipment.medbay.description"}, ' +
-            '{"value":"WOL.Tags.equipment.canopy.value", "editable":false, "description":"WOL.Tags.equipment.canopy.description"}]',
+            '{"value":"WOL.Tags.equipment.canopy.value", "editable":false, "description":"WOL.Tags.equipment.canopy.description"}, ' +
+            // Additional Vehicle Tags
+            '{"value":"WOL.Tags.equipment.durable.value", "editable":false, "description":"WOL.Tags.equipment.durable.description"}, ' +
+            '{"value":"WOL.Tags.equipment.mighty.value", "editable":false, "description":"WOL.Tags.equipment.mighty.description"}, ' +
+            '{"value":"WOL.Tags.equipment.mount.value", "editable":false, "description":"WOL.Tags.equipment.mount.description"}, ' +
+            '{"value":"WOL.Tags.equipment.turret.value", "editable":false, "description":"WOL.Tags.equipment.turret.description"}, ' +
+            // Follower Tags
+            '{"value":"WOL.Tags.equipment.quality.value", "editable":false, "description":"WOL.Tags.equipment.quality.description"}, ' +
+            '{"value":"WOL.Tags.equipment.researching.value", "editable":false, "description":"WOL.Tags.equipment.researching.description"}, ' +
+            '{"value":"WOL.Tags.equipment.assault.value", "editable":false, "description":"WOL.Tags.equipment.assault.description"}]',
         // Move tags (if needed for future expansion)
         move: '',
         // Other item types can be added here

@@ -1,0 +1,44 @@
+{
+  "name": "Flying Vehicle",
+  "type": "equipment",
+  "_id": "fuwmfaEObYWapt3a",
+  "img": "icons/vehicles/air/airship-balloon-yellow.svg",
+  "system": {
+    "description": "<p>An aircraft capable of aerial travel, mentioned specifically in the SRD.</p>",
+    "equipmentType": "vehicles",
+    "harm": 0,
+    "armor": 0,
+    "uses": 0,
+    "forward": 0,
+    "ongoing": 0,
+    "hold": 0,
+    "rollFormula": "",
+    "rollMode": "ask",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "",
+    "attribute": "",
+    "moveResults": {},
+    "choices": "",
+    "tags": "[{\"value\":\"WOL.Tags.equipment.air.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.air.description\"},{\"value\":\"WOL.Tags.equipment.canopy.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.canopy.description\"}]"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!fuwmfaEObYWapt3a"
+}
