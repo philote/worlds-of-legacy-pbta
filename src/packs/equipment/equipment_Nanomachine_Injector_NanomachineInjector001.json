@@ -1,0 +1,55 @@
+{
+  "name": "Blood-borne Nanomachines",
+  "type": "equipment",
+  "_id": "NanomachineInjector001",
+  "img": "icons/tools/scribal/ink-bottle.svg",
+  "system": {
+    "description": "<p>Microscopic machines that integrate with your bloodstream, mentioned specifically in the SRD.</p>",
+    "equipmentType": "outfit",
+    "harm": 0,
+    "armor": 1,
+    "uses": 0,
+    "forward": 0,
+    "ongoing": 0,
+    "hold": 0,
+    "rollFormula": "",
+    "rollMode": "ask",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "",
+    "attribute": "",
+    "moveResults": {},
+    "choices": "",
+    "tags": [
+      {
+        "name": "Implanted",
+        "value": "WOL.Tags.equipment.implanted.value",
+        "description": "WOL.Tags.equipment.implanted.description"
+      },
+      {
+        "name": "Mantle",
+        "value": "WOL.Tags.equipment.mantle.value",
+        "description": "WOL.Tags.equipment.mantle.description"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!NanomachineInjector001"
+}

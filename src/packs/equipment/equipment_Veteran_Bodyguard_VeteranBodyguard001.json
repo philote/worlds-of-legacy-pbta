@@ -1,0 +1,44 @@
+{
+  "name": "Veteran Bodyguard",
+  "type": "equipment",
+  "_id": "VeteranBodyguard001",
+  "img": "icons/environment/people/commoner.svg",
+  "system": {
+    "description": "<p>A seasoned warrior who has sworn to protect you. Quality +2, Specialty: Combat and Intimidation.</p>",
+    "equipmentType": "followers",
+    "harm": 0,
+    "armor": 0,
+    "uses": 0,
+    "forward": 0,
+    "ongoing": 0,
+    "hold": 0,
+    "rollFormula": "",
+    "rollMode": "ask",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "",
+    "attribute": "",
+    "moveResults": {},
+    "choices": "",
+    "tags": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!VeteranBodyguard001"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Weird Grenades",
+  "type": "equipment",
+  "_id": "WeirdGrenades001",
+  "img": "icons/weapons/thrown/bomb-fuse-steel.svg",
+  "system": {
+    "description": "<p>Strange explosive devices with unpredictable effects, mentioned specifically in the SRD.</p>",
+    "equipmentType": "armoury",
+    "harm": 3,
+    "armor": 0,
+    "uses": 3,
+    "forward": 0,
+    "ongoing": 0,
+    "hold": 0,
+    "rollFormula": "",
+    "rollMode": "ask",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "",
+    "attribute": "",
+    "moveResults": {},
+    "choices": "",
+    "tags": [
+      {
+        "name": "Area",
+        "value": "WOL.Tags.equipment.area.value",
+        "description": "WOL.Tags.equipment.area.description"
+      },
+      {
+        "name": "Aberrant",
+        "value": "WOL.Tags.equipment.aberrant.value",
+        "description": "WOL.Tags.equipment.aberrant.description"
+      },
+      {
+        "name": "Many",
+        "value": "WOL.Tags.equipment.many.value",
+        "description": "WOL.Tags.equipment.many.description"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!WeirdGrenades001"
+}

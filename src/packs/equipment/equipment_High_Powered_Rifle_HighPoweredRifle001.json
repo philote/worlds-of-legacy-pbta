@@ -1,0 +1,60 @@
+{
+  "name": "High-Powered Rifle",
+  "type": "equipment",
+  "_id": "HighPoweredRifle001",
+  "img": "icons/weapons/guns/rifle-scope-brown.svg",
+  "system": {
+    "description": "<p>A precision rifle with extreme range capabilities, mentioned specifically in the SRD.</p>",
+    "equipmentType": "armoury",
+    "harm": 3,
+    "armor": 0,
+    "uses": 0,
+    "forward": 0,
+    "ongoing": 0,
+    "hold": 0,
+    "rollFormula": "",
+    "rollMode": "ask",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "",
+    "attribute": "",
+    "moveResults": {},
+    "choices": "",
+    "tags": [
+      {
+        "name": "Ranged",
+        "value": "WOL.Tags.equipment.ranged.value",
+        "description": "WOL.Tags.equipment.ranged.description"
+      },
+      {
+        "name": "Far",
+        "value": "WOL.Tags.equipment.far.value",
+        "description": "WOL.Tags.equipment.far.description"
+      },
+      {
+        "name": "Elegant",
+        "value": "WOL.Tags.equipment.elegant.value",
+        "description": "WOL.Tags.equipment.elegant.description"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!HighPoweredRifle001"
+}

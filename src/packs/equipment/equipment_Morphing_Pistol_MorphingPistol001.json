@@ -1,0 +1,55 @@
+{
+  "name": "Morphing Pistol",
+  "type": "equipment",
+  "_id": "MorphingPistol001",
+  "img": "icons/weapons/guns/pistol-brown.svg",
+  "system": {
+    "description": "<p>A weapon that can shift its shape to avoid detection, mentioned specifically in the SRD.</p>",
+    "equipmentType": "armoury",
+    "harm": 2,
+    "armor": 0,
+    "uses": 0,
+    "forward": 0,
+    "ongoing": 0,
+    "hold": 0,
+    "rollFormula": "",
+    "rollMode": "ask",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "",
+    "attribute": "",
+    "moveResults": {},
+    "choices": "",
+    "tags": [
+      {
+        "name": "Ranged",
+        "value": "WOL.Tags.equipment.ranged.value",
+        "description": "WOL.Tags.equipment.ranged.description"
+      },
+      {
+        "name": "Hidden",
+        "value": "WOL.Tags.equipment.hidden.value",
+        "description": "WOL.Tags.equipment.hidden.description"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!MorphingPistol001"
+}
