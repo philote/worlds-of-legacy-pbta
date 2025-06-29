@@ -1,0 +1,41 @@
+{
+  "name": "Wasteland Survival",
+  "type": "move",
+  "_id": "WastelandSurvival001",
+  "img": "icons/environment/wilderness/terrain-badlands-orange.svg",
+  "system": {
+    "description": "<p>When you navigate through the wasteland outside of settled lands, roll +Steel.</p>",
+    "rollType": "stat",
+    "rollMod": 0,
+    "stat": "steel",
+    "moveResults": {
+      "failure": {
+        "value": "On a miss, you are lost or trapped in the wasteland. The GM will tell you how."
+      },
+      "partial": {
+        "value": "On a 7-9, pick one: the GM will give you further details.<ul><li>You lose something along the way.</li><li>A member of your group is hurt or sick.</li><li>An obstacle or threat is blocking your way back.</li></ul>"
+      },
+      "success": {
+        "value": "On a 10+, pick one: the GM will give you further details.<ul><li>You lose something along the way.</li><li>A member of your group is hurt or sick.</li><li>An obstacle or threat is blocking your way back.</li></ul><p>Also pick one:</p><ul><li>You discover a hidden treasure in the wasteland, worth a lot if you can secure it.</li><li>You discover a secret path you can use to take this route without triggering this move.</li><li>You discover a secret: details on a threat, signs of other peoples, the origin of the Fall.</li></ul>"
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!WastelandSurvival001"
+}
