@@ -28,20 +28,7 @@
                 "playbookLabel": "Playbook Moves"
             },
             "attr": {
-                "xpLabel": "Experience",
-                "harmLabel": "Harm",
-                "stressLabel": "Stress",
-                "conditions": {
-                    "label": "Conditions",
-                    "description": "Mark conditions when affected by moves or circumstances",
-                    "options": {
-                        "0": "Angry",
-                        "1": "Afraid", 
-                        "2": "Ashamed",
-                        "3": "Corrupt"
-                    }
-                },
-                "doctrineLabel": "Doctrine"
+                "harmLabel": "Harm"
             },
             "equipmentLabel": "Equipment",
             "equipmentTypes": {

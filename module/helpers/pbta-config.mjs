@@ -62,17 +62,6 @@ export const configSheet = async () => {
                     }
                 },
                 attributes: {
-                    xp: {
-                        label: game.i18n.localize("WOL.CharacterSheets.attr.xpLabel"),
-                        description: null,
-                        customLabel: false,
-                        userLabel: false,
-                        type: "Xp",
-                        value: 0,
-                        max: 5,
-                        steps: Array(5).fill(false),
-                        position: "Top"
-                    },
                     harm: {
                         label: game.i18n.localize('WOL.CharacterSheets.attr.harmLabel'),
                         description: null,
@@ -80,56 +69,9 @@ export const configSheet = async () => {
                         userLabel: false,
                         type: 'Clock',
                         value: 0,
-                        max: 4,
-                        steps: Array(4).fill(false),
+                        max: 5,
+                        steps: Array(5).fill(false),
                         position: 'Top',
-                    },
-                    stress: {
-                        label: game.i18n.localize('WOL.CharacterSheets.attr.stressLabel'),
-                        description: null,
-                        customLabel: false,
-                        userLabel: false,
-                        type: 'Clock',
-                        value: 0,
-                        max: 4,
-                        steps: Array(4).fill(false),
-                        position: 'Top',
-                    },
-                    conditions: {
-                        label: game.i18n.localize("WOL.CharacterSheets.attr.conditions.label"),
-                        description: game.i18n.localize("WOL.CharacterSheets.attr.conditions.description"),
-                        customLabel: false,
-                        userLabel: false,
-                        type: "ListMany",
-                        condition: true,
-                        position: "Left",
-                        options: {
-                            0: {
-                                label: game.i18n.localize("WOL.CharacterSheets.attr.conditions.options.0"),
-                                value: false,
-                            },
-                            1: {
-                                label: game.i18n.localize("WOL.CharacterSheets.attr.conditions.options.1"),
-                                value: false,
-                            },
-                            2: {
-                                label: game.i18n.localize("WOL.CharacterSheets.attr.conditions.options.2"),
-                                value: false,
-                            },
-                            3: {
-                                label: game.i18n.localize("WOL.CharacterSheets.attr.conditions.options.3"),
-                                value: false,
-                            },
-                        },
-                    },
-                    doctrine: {
-                        label: game.i18n.localize("WOL.CharacterSheets.attr.doctrineLabel"),
-                        description: null,
-                        customLabel: false,
-                        userLabel: false,
-                        type: "Number",
-                        value: 0,
-                        position: "Left"
                     },
                 },
                 details: {
