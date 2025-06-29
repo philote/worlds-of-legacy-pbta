@@ -110,9 +110,10 @@ The `foundry/` directory contains symlinked files from the target FoundryVTT ins
 - Story moves enable dual-scale transitions (Zoom In/Out)
 
 **Equipment Tag System**:
-- Legacy uses extensive tag-based equipment (24+ tags implemented)
+- Legacy uses extensive tag-based equipment (30+ tags implemented)
 - Tags define weapon/armor properties rather than static stats
-- Equipment examples from SRD: Morphing Pistol, Weird Grenades, Blood-borne Nanomachines
+- Comprehensive equipment library covering all SRD examples: weapons, armor, vehicles, followers, devices
+- Equipment examples: Morphing Pistol, Power Armour, Flying Vehicles, Scholars, Pain Box, Radio Rig
 
 ### Critical Technical Learnings
 
@@ -120,6 +121,8 @@ The `foundry/` directory contains symlinked files from the target FoundryVTT ins
 - All pack items MUST use exactly 16-character alphanumeric UUIDs
 - Pattern: `_id: "AbC123Xyz789QRST"`, `_key: "!items!AbC123Xyz789QRST"`
 - Filenames must include UUID: `move_Call_For_Aid_BLx1OPlRIUjKWBnK.json`
+- Use `node tools/generate-uuids.mjs file1.json file2.json` for targeted UUID generation
+- Script prevents duplicate filenames and validates proper UUID format
 
 **Content Authenticity**:
 - ALL content must be verified against `raw-assets/book/Worlds-of-Legacy-SRD.md`
@@ -133,11 +136,11 @@ The `foundry/` directory contains symlinked files from the target FoundryVTT ins
 
 ### Pack Structure
 
-**Current Packs** (30 items total):
+**Current Packs** (48 items total):
 - `basic-moves/` - 9 character moves (verified against SRD)
 - `family-moves/` - 7 family moves (verified against SRD)  
 - `story-moves/` - 6 dual-scale transition moves (verified against SRD)
-- `equipment/` - 7 example items with proper tags (verified against SRD)
+- `equipment/` - 17 comprehensive equipment items with proper tags (verified against SRD)
 - `playbooks/` - 1 placeholder (needs Phase 8 implementation)
 
 ### Development Phases Completed
@@ -149,6 +152,12 @@ The `foundry/` directory contains symlinked files from the target FoundryVTT ins
 - Fixed 4 moves with incorrect implementations
 - Removed 4 hallucinated equipment items
 - Removed stress, conditions, XP, and character doctrine attributes
+
+**Equipment Expansion**: Comprehensive SRD-based equipment library
+- Added 10 additional equipment items from SRD examples
+- Implemented 8 new equipment tags (durable, mighty, mount, turret, quality, researching, assault)
+- Created complete coverage of SRD equipment categories: weapons, armor, vehicles, followers, devices
+- Fixed UUID generation script to prevent duplicate filenames
 
 ## Important Notes
 - Never edit files in `packs/` directly - they're generated from `src/packs/`
