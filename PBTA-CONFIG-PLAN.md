@@ -317,8 +317,8 @@ All text needs to be moved to `lang/en.json` with proper WOL namespace:
 1. **✅ Phase 1**: Implement basic character system with correct stats
 2. **✅ Phase 2**: Add family actor type with basic functionality  
 3. **✅ Phase 3**: Add missing character basic moves
-4. **Phase 4**: Add missing family basic moves
-5. **Phase 5**: Implement Story & Scale moves
+4. **✅ Phase 4**: Add missing family basic moves
+5. **✅ Phase 5**: Implement Story & Scale moves
 6. **Phase 6**: Create equipment system with tags
 7. **Phase 7**: Add resource systems (Tech, Data, Treaty)
 8. **Phase 8**: Create example playbooks
@@ -342,5 +342,25 @@ All text needs to be moved to `lang/en.json` with proper WOL namespace:
 - ✅ **Information is Power** - Spend Data for temporary advantages
 
 **Character Move Coverage:** 13+ basic moves implemented, providing comprehensive character-level gameplay coverage.
+
+## Phase 4 Completion Status ✅
+
+**Family Basic Moves Implemented:**
+- ✅ **Establish Control** - Expand influence and gain territory (+Grasp)
+- ✅ **Maintain Control** - Defend territory and assets (+Grasp)
+- ✅ **Forge Alliance** - Create diplomatic relationships (+Reach)
+- ✅ **Survey the Landscape** - Gather intelligence through subterfuge (+Sleight)
+- ✅ **Mobilize Forces** - Rally family strength (+Grasp)
+- ✅ **Hold Together** - Resist hardship and infighting (roll +Mood manually)
+- ✅ **Conduct Diplomacy** - Call on allies for support (+Reach)
+- ✅ **Subterfuge** - Infiltrate other factions (+Sleight)
+
+**Family Resource Management Moves:**
+- ✅ **Lend Aid** - Support another family (roll +Treaty manually)
+- ✅ **Call in a Debt** - Use Treaty relationships for advantages
+- ✅ **Power Up** - Spend Tech for +1 Forward on family moves
+- ✅ **Uncover Secrets** - Spend Data to discover information (roll +Data manually)
+
+**Family Move Coverage:** 11+ family moves implemented, providing comprehensive family-level gameplay coverage including territory control, diplomacy, intelligence, unity, and resource management.
 
 This configuration will provide the foundation for Legacy's unique dual-scale PbtA gameplay while maintaining compatibility with the base PbtA system structure.

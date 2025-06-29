@@ -1,0 +1,52 @@
+{
+  "name": "Right Tool for the Job",
+  "type": "move",
+  "_id": "RightToolForTheJob001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you have the right Surplus for a problem and spend it to solve the issue, describe how your resources resolve the situation without needing a roll.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Effect",
+        "value": "<p>Spend the appropriate Surplus. The problem is resolved efficiently and completely. Your family's resources prove their worth.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "ask",
+    "rollMod": 0,
+    "actorType": "family",
+    "choices": "Examples: Weaponry to win a fight, Engineering to build something, Scouts to find information, Leadership to rally people, Safety to protect against hazards"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!RightToolForTheJob001"
+}

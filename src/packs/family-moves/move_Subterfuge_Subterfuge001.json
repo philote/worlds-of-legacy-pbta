@@ -1,0 +1,53 @@
+{
+  "name": "Subterfuge",
+  "type": "move",
+  "_id": "Subterfuge001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you infiltrate other factions to spread false information, steal secrets, or hide your actions, roll +Sleight.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss (6-)",
+        "value": "<p>Your deception is discovered. You're exposed, your agents are compromised, or your true intentions are revealed to your enemies.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Weak Hit (7-9)",
+        "value": "<p>Your subterfuge succeeds, but choose one: you leave traces that could be followed back to you, you only achieve part of your goal, or you have to sacrifice something valuable to maintain your cover.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Strong Hit (10+)",
+        "value": "<p>Your deception works perfectly. You achieve your goal without detection and may gain additional intelligence or advantages.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "stat",
+    "rollMod": 0,
+    "actorType": "family",
+    "stat": "sleight",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Subterfuge001"
+}

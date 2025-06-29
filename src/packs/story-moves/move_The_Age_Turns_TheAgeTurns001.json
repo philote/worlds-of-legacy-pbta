@@ -1,0 +1,52 @@
+{
+  "name": "The Age Turns",
+  "type": "move",
+  "_id": "TheAgeTurns001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When significant time passes (months or years) or when major changes shake the world, roll +Mood to see how your family adapts.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss (6-)",
+        "value": "<p>The changing times are hard on your family. Choose two: reduce a stat by 1, take 2 Sleepers, lose a significant asset, or face a serious crisis that threatens family unity.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Weak Hit (7-9)",
+        "value": "<p>Your family weathers the changes with some difficulty. Choose one: reduce a stat by 1, take 1 Sleepers, or lose a minor asset. Then choose one benefit: increase a different stat by 1, improve Mood by 1, or gain a new opportunity.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Strong Hit (10+)",
+        "value": "<p>Your family thrives in the changing world. Choose two: increase a stat by 1, improve Mood by 1, gain a significant asset, or unlock a new family move. Characters may also retire and be replaced by the next generation.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "ask",
+    "rollMod": 0,
+    "actorType": "family",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!TheAgeTurns001"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Hold Together",
+  "type": "move",
+  "_id": "HoldTogether001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When your family faces hardship, temptation, or infighting, roll +Mood.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss (6-)",
+        "value": "<p>Your family fractures. Take 1 Sleepers and reduce Mood by 1. The GM will tell you how the family's unity suffers.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Weak Hit (7-9)",
+        "value": "<p>Your family weathers the crisis, but choose one: take 1 Sleepers, reduce Mood by 1, or accept a costly compromise to maintain unity.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Strong Hit (10+)",
+        "value": "<p>Your family stands strong together. You may also choose to increase Mood by 1 if this crisis brought you closer together.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "ask",
+    "rollMod": 0,
+    "actorType": "family",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!HoldTogether001"
+}

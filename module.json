@@ -79,6 +79,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "story-moves",
+      "label": "Story Moves",
+      "path": "packs/story-moves",
+      "type": "Item",
+      "system": "pbta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "url": "#{URL}#",

@@ -1,0 +1,52 @@
+{
+  "name": "Finding a Surplus",
+  "type": "move",
+  "_id": "FindingASurplus001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When your family successfully creates, claims, or discovers new resources, add them to your Surpluses. Describe what you've gained and how it strengthens your family.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Effect",
+        "value": "<p>Add a new Surplus to your family sheet. Examples: Artisans, Barter Goods, Crops, Defences, Engineering, Leadership, Morale, Progress, Recruits, Safety, Scouts, Trade, Weaponry.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "ask",
+    "rollMod": 0,
+    "actorType": "family",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FindingASurplus001"
+}

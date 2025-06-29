@@ -234,8 +234,8 @@ export const configSheet = async () => {
                         description: null,
                         customLabel: false,
                         userLabel: false,
-                        type: "Text",
-                        value: "",
+                        type: "Number",
+                        value: 0,
                         position: "Top"
                     },
                     sleepers: {

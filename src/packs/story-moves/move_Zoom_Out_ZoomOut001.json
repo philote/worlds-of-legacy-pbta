@@ -1,0 +1,52 @@
+{
+  "name": "Zoom Out",
+  "type": "move",
+  "_id": "ZoomOut001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When character-level scenes resolve or when you want to return to family-level play, shift perspective back to family scale. Describe the broader consequences of character actions.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Effect",
+        "value": "<p>Return to family-level play. Apply the consequences of character actions to family situations. Characters may gain experience in their roles or face family-level repercussions.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "ask",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZoomOut001"
+}

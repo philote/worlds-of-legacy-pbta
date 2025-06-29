@@ -1,0 +1,52 @@
+{
+  "name": "Power Up",
+  "type": "move",
+  "_id": "PowerUp001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you spend Tech (fragments of the old world) to gain advantage on a family roll, describe how the technology helps and take +1 Forward on your next family move.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Effect",
+        "value": "<p>Spend 1 Tech. Take +1 Forward on your next family move. The advanced technology gives you a significant advantage in the situation.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "ask",
+    "rollMod": 0,
+    "actorType": "family",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!PowerUp001"
+}

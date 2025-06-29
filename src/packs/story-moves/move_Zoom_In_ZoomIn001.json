@@ -1,0 +1,52 @@
+{
+  "name": "Zoom In",
+  "type": "move",
+  "_id": "ZoomIn001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When family-level action requires character-level resolution, or when you want to focus on critical personal moments, shift perspective to character play. Choose characters to play and set the scene.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Effect",
+        "value": "<p>Switch to character-level play. Players take control of individual characters from their families. The outcome of character actions will affect family-level situations when you Zoom Out.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "ask",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZoomIn001"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Conduct Diplomacy",
+  "type": "move",
+  "_id": "ConductDiplomacy001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you call on your allies for meetings, access, or information, roll +Reach.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss (6-)",
+        "value": "<p>Your allies are unavailable, unwilling, or demand too high a price. You may strain relationships or reveal your needs to rivals.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Weak Hit (7-9)",
+        "value": "<p>Your allies respond, but choose one: they want a significant favor in return, they can only provide limited assistance, or word of your request spreads to others.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Strong Hit (10+)",
+        "value": "<p>Your allies readily provide what you need. They may also offer additional assistance or useful information.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "stat",
+    "rollMod": 0,
+    "actorType": "family",
+    "stat": "reach",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ConductDiplomacy001"
+}

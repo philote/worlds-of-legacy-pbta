@@ -1,0 +1,52 @@
+{
+  "name": "Lend Aid",
+  "type": "move",
+  "_id": "LendAid001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you support another family with resources or assistance, roll +Treaty (the strength of your relationship with them).</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss (6-)",
+        "value": "<p>Your aid is insufficient or unwelcome. You strain the relationship and may create resentment or obligations.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Weak Hit (7-9)",
+        "value": "<p>Your aid helps them, but choose one: it costs you more than expected, they become dependent on your support, or other families notice and react.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Strong Hit (10+)",
+        "value": "<p>Your aid strengthens them and your relationship. Both families benefit from the cooperation.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "ask",
+    "rollMod": 0,
+    "actorType": "family",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!LendAid001"
+}
