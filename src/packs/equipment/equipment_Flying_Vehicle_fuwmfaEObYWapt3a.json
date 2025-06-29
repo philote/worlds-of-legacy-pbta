@@ -2,7 +2,7 @@
   "name": "Flying Vehicle",
   "type": "equipment",
   "_id": "fuwmfaEObYWapt3a",
-  "img": "icons/vehicles/air/airship-balloon-yellow.svg",
+  "img": "icons/svg/item-bag.svg",
   "system": {
     "description": "<p>An aircraft capable of aerial travel, mentioned specifically in the SRD.</p>",
     "equipmentType": "vehicles",
@@ -33,12 +33,13 @@
   "_stats": {
     "systemId": "pbta",
     "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "modifiedTime": 1751232429135,
+    "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!fuwmfaEObYWapt3a"
 }

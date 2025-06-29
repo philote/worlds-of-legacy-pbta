@@ -2,7 +2,7 @@
   "name": "Mobile ICU",
   "type": "equipment",
   "_id": "MlAI2eJC7bXd3aE9",
-  "img": "icons/vehicles/land/truck-enclosed-red.svg",
+  "img": "icons/svg/item-bag.svg",
   "system": {
     "description": "<p>A mobile intensive care unit with medical facilities, mentioned specifically in the SRD.</p>",
     "equipmentType": "vehicles",
@@ -33,12 +33,13 @@
   "_stats": {
     "systemId": "pbta",
     "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "modifiedTime": 1751232407021,
+    "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!MlAI2eJC7bXd3aE9"
 }

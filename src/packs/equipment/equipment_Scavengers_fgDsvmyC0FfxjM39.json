@@ -2,7 +2,7 @@
   "name": "Scavengers",
   "type": "equipment",
   "_id": "fgDsvmyC0FfxjM39",
-  "img": "icons/environment/people/commoner.svg",
+  "img": "icons/svg/item-bag.svg",
   "system": {
     "description": "<p>Specialists in picking through junk with 1 Quality, mentioned specifically in the SRD.</p>",
     "equipmentType": "followers",
@@ -33,12 +33,13 @@
   "_stats": {
     "systemId": "pbta",
     "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "modifiedTime": 1751232464192,
+    "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!fgDsvmyC0FfxjM39"
 }

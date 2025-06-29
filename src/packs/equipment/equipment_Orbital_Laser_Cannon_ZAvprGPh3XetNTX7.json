@@ -2,7 +2,7 @@
   "name": "Orbital Laser Cannon",
   "type": "equipment",
   "_id": "ZAvprGPh3XetNTX7",
-  "img": "icons/weapons/artillery/cannon-triple-barrel.svg",
+  "img": "icons/svg/item-bag.svg",
   "system": {
     "description": "<p>A devastating orbital weapon system, mentioned as an example in the SRD.</p>",
     "equipmentType": "armoury",
@@ -33,12 +33,13 @@
   "_stats": {
     "systemId": "pbta",
     "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "modifiedTime": 1751232399941,
+    "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!ZAvprGPh3XetNTX7"
 }

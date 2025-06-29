@@ -2,7 +2,7 @@
   "name": "Scholars",
   "type": "equipment",
   "_id": "grgVW6kxQLugr0wk",
-  "img": "icons/environment/people/group.svg",
+  "img": "icons/svg/item-bag.svg",
   "system": {
     "description": "<p>Academic specialists with 1 Quality in Researching, mentioned specifically in the SRD.</p>",
     "equipmentType": "followers",
@@ -33,12 +33,13 @@
   "_stats": {
     "systemId": "pbta",
     "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "modifiedTime": 1751232455880,
+    "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!grgVW6kxQLugr0wk"
 }

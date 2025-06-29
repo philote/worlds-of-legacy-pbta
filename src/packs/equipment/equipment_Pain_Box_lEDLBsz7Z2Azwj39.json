@@ -2,7 +2,7 @@
   "name": "Pain Box",
   "type": "equipment",
   "_id": "lEDLBsz7Z2Azwj39",
-  "img": "icons/magic/control/fear-fright-shadow-monster.svg",
+  "img": "icons/svg/item-bag.svg",
   "system": {
     "description": "<p>A device that inflicts non-lethal but debilitating pain over an area, mentioned in the Inheritance Move.</p>",
     "equipmentType": "devices",
@@ -33,12 +33,13 @@
   "_stats": {
     "systemId": "pbta",
     "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "modifiedTime": 1751232483326,
+    "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!lEDLBsz7Z2Azwj39"
 }

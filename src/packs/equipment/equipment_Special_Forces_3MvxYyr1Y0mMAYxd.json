@@ -2,7 +2,7 @@
   "name": "Special Forces",
   "type": "equipment",
   "_id": "3MvxYyr1Y0mMAYxd",
-  "img": "icons/environment/people/charge.svg",
+  "img": "icons/svg/item-bag.svg",
   "system": {
     "description": "<p>Elite military specialists with 1 Quality in Assault, mentioned specifically in the SRD.</p>",
     "equipmentType": "followers",
@@ -33,12 +33,13 @@
   "_stats": {
     "systemId": "pbta",
     "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "modifiedTime": 1751232450147,
+    "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!3MvxYyr1Y0mMAYxd"
 }

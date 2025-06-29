@@ -2,7 +2,7 @@
   "name": "Gleaming Power Armour",
   "type": "equipment",
   "_id": "PbTRKv8xwSVEfFeL",
-  "img": "icons/equipment/chest/breastplate-layered-steel.svg",
+  "img": "icons/svg/item-bag.svg",
   "system": {
     "description": "<p>Powered armor that gleams with advanced technology, mentioned specifically in the SRD.</p>",
     "equipmentType": "outfit",
@@ -33,12 +33,13 @@
   "_stats": {
     "systemId": "pbta",
     "systemVersion": "1.0.0",
-    "coreVersion": "13.0.0",
+    "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null,
+    "modifiedTime": 1751232420325,
+    "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!PbTRKv8xwSVEfFeL"
 }
