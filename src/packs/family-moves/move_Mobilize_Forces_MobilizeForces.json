@@ -1,0 +1,53 @@
+{
+  "name": "Mobilize Forces",
+  "type": "move",
+  "_id": "MobilizeForces001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you rally your family's strength for a major undertaking, roll +Grasp.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss (6-)",
+        "value": "<p>Your forces are reluctant or unprepared. Take 1 Sleepers and the GM will tell you what goes wrong.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Weak Hit (7-9)",
+        "value": "<p>You mobilize your forces, but choose one: take 1 Sleepers from the effort, the mobilization takes longer than expected, or your forces are only partially committed.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Strong Hit (10+)",
+        "value": "<p>Your forces mobilize effectively. You have the resources and people you need for your undertaking.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "stat",
+    "rollMod": 0,
+    "actorType": "family",
+    "stat": "grasp",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!MobilizeForces001"
+}

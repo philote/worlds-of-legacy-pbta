@@ -59,6 +59,35 @@
             },
             "lootLabel": "Loot"
         },
+        "FamilySheets": {
+            "stats": {
+                "reach": "Reach",
+                "grasp": "Grasp", 
+                "sleight": "Sleight"
+            },
+            "attr": {
+                "moodLabel": "Mood",
+                "sleepersLabel": "Sleepers",
+                "ageLabel": "Age",
+                "age": {
+                    "options": {
+                        "0": "Upstart (0-2 Ages)",
+                        "1": "Mature (3-5 Ages)", 
+                        "2": "Elder (6+ Ages)"
+                    }
+                }
+            },
+            "details": {
+                "doctrineLabel": "Doctrine",
+                "traditionsLabel": "Traditions",
+                "biographyLabel": "History"
+            },
+            "moveTypes": {
+                "basicLabel": "Basic Moves",
+                "playbookLabel": "Family Moves"
+            },
+            "assetsLabel": "Assets"
+        },
         "Tags": {
             "equipment": {
                 "strong": {

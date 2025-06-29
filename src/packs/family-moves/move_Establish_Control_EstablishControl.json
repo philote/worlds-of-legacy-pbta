@@ -1,0 +1,53 @@
+{
+  "name": "Establish Control",
+  "type": "move",
+  "_id": "EstablishControl001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you act to establish control over a new area, group, or resource, roll +Grasp.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss (6-)",
+        "value": "<p>You fail to establish control, and your attempt creates new problems or opposition.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Weak Hit (7-9)",
+        "value": "<p>You establish control, but choose one: it's temporary and will need to be reinforced, it comes with unexpected obligations, or it creates a rival.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Strong Hit (10+)",
+        "value": "<p>You establish solid control. Gain +1 Reach and describe what you now control.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "stat",
+    "rollMod": 0,
+    "actorType": "family",
+    "stat": "grasp",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!EstablishControl001"
+}

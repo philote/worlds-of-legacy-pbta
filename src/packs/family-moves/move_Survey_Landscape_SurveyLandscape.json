@@ -1,0 +1,53 @@
+{
+  "name": "Survey the Landscape",
+  "type": "move",
+  "_id": "SurveyLandscape001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you survey the wider world to understand threats, opportunities, or changes, roll +Sleight.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss (6-)",
+        "value": "<p>You miss something important, and your ignorance will come back to haunt you.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Weak Hit (7-9)",
+        "value": "<p>You get a sense of the situation. Ask one question from the list below.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Strong Hit (10+)",
+        "value": "<p>You have a clear picture of the situation. Ask up to two questions from the list below.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "stat",
+    "rollMod": 0,
+    "actorType": "family",
+    "stat": "sleight",
+    "choices": "• What new opportunities have emerged?\n• What threats are gathering against us?\n• Which other families are growing stronger?\n• What changes are happening in the wider world?\n• Where are resources becoming scarce or abundant?\n• What new technologies or knowledge have appeared?"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!SurveyLandscape001"
+}

@@ -212,6 +212,105 @@ export const configSheet = async () => {
                         label: game.i18n.localize('WOL.NPCSheets.lootLabel'),
                     },
                 },
+            },
+            family: {
+                stats: {
+                    reach: {
+                        label: game.i18n.localize("WOL.FamilySheets.stats.reach"),
+                        value: 0
+                    },
+                    grasp: {
+                        label: game.i18n.localize("WOL.FamilySheets.stats.grasp"),
+                        value: 0
+                    },
+                    sleight: {
+                        label: game.i18n.localize("WOL.FamilySheets.stats.sleight"),
+                        value: 0
+                    }
+                },
+                attributes: {
+                    mood: {
+                        label: game.i18n.localize("WOL.FamilySheets.attr.moodLabel"),
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        type: "Text",
+                        value: "",
+                        position: "Top"
+                    },
+                    sleepers: {
+                        label: game.i18n.localize("WOL.FamilySheets.attr.sleepersLabel"),
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        type: "Clock",
+                        value: 0,
+                        max: 4,
+                        steps: Array(4).fill(false),
+                        position: "Top"
+                    },
+                    age: {
+                        label: game.i18n.localize("WOL.FamilySheets.attr.ageLabel"),
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        type: "ListOne",
+                        position: "Left",
+                        options: {
+                            0: {
+                                label: game.i18n.localize("WOL.FamilySheets.attr.age.options.0"),
+                                value: false
+                            },
+                            1: {
+                                label: game.i18n.localize("WOL.FamilySheets.attr.age.options.1"),
+                                value: false
+                            },
+                            2: {
+                                label: game.i18n.localize("WOL.FamilySheets.attr.age.options.2"),
+                                value: false
+                            }
+                        }
+                    }
+                },
+                details: {
+                    doctrine: {
+                        label: game.i18n.localize("WOL.FamilySheets.details.doctrineLabel"),
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        type: "LongText",
+                        playbook: true,
+                    },
+                    traditions: {
+                        label: game.i18n.localize("WOL.FamilySheets.details.traditionsLabel"),
+                        description: null,
+                        customLabel: false,
+                        userLabel: false,
+                        type: "LongText",
+                        playbook: true,
+                    },
+                    biography: {
+                        label: game.i18n.localize("WOL.FamilySheets.details.biographyLabel"),
+                        value: ""
+                    }
+                },
+                moveTypes: {
+                    basic: {
+                        label: game.i18n.localize("WOL.FamilySheets.moveTypes.basicLabel"),
+                        moves: [],
+                        creation: true
+                    },
+                    playbook: {
+                        label: game.i18n.localize("WOL.FamilySheets.moveTypes.playbookLabel"),
+                        moves: [],
+                        playbook: true
+                    }
+                },
+                equipmentTypes: {
+                    assets: {
+                        label: game.i18n.localize("WOL.FamilySheets.assetsLabel"),
+                    }
+                }
             }
         }
     }
