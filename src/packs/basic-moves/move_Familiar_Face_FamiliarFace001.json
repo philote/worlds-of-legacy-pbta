@@ -1,0 +1,53 @@
+{
+  "name": "Familiar Face",
+  "type": "move",
+  "_id": "FamiliarFace001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you enter a new settlement or community and look for old friends, contacts, or family members, roll +Sway.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss (6-)",
+        "value": "<p>You find someone you know, but they're in trouble, hold a grudge against you, or want something you can't easily give.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Weak Hit (7-9)",
+        "value": "<p>You find a friendly acquaintance who remembers you fondly. They can offer basic hospitality or information, but nothing more without repayment.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Strong Hit (10+)",
+        "value": "<p>You find a good friend or trusted contact who's genuinely happy to see you. They'll offer shelter, aid, or useful information freely.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "stat",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "sway",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FamiliarFace001"
+}

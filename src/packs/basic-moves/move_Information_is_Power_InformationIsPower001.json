@@ -1,0 +1,52 @@
+{
+  "name": "Information is Power",
+  "type": "move",
+  "_id": "InformationIsPower001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you spend Data (knowledge of secret truths) to gain advantage, choose one and describe how the information helps:</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Choose One",
+        "value": "<p>• Take +1 Forward on your next roll<br/>• Ask the GM a specific question about the situation<br/>• Reveal a useful detail about someone or something<br/>• Create an opening or opportunity</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "ask",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": "• Take +1 Forward on your next roll\n• Ask the GM a specific question about the situation\n• Reveal a useful detail about someone or something\n• Create an opening or opportunity"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!InformationIsPower001"
+}

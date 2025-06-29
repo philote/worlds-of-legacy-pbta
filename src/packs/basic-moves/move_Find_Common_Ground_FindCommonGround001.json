@@ -1,0 +1,53 @@
+{
+  "name": "Find Common Ground",
+  "type": "move",
+  "_id": "FindCommonGround001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you ask someone to work with you toward a shared goal, roll +Sway.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss (6-)",
+        "value": "<p>They refuse and become suspicious of your motives. Future attempts to work with them will be much harder.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Weak Hit (7-9)",
+        "value": "<p>They'll work with you, but choose one: they want something significant in return, they'll only help in limited ways, or they bring their own agenda to the partnership.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Strong Hit (10+)",
+        "value": "<p>They see the mutual benefit and agree to work together. They'll provide meaningful assistance toward your shared goal.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "stat",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "sway",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FindCommonGround001"
+}

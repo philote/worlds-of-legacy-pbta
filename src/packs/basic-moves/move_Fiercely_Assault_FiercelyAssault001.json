@@ -1,0 +1,53 @@
+{
+  "name": "Fiercely Assault",
+  "type": "move",
+  "_id": "FiercelyAssault001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you fight savagely and without restraint, roll +Force.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss (6-)",
+        "value": "<p>Your reckless assault leaves you open. You suffer their full attack and face additional consequences.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Weak Hit (7-9)",
+        "value": "<p>You deal devastating damage, but choose one: you take their attack in return, you damage something you didn't mean to, or you lose control and can't stop fighting.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Strong Hit (10+)",
+        "value": "<p>You overwhelm them completely. Deal extra damage and choose whether to show mercy or continue the assault.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "stat",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "force",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FiercelyAssault001"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Unleash Power",
+  "type": "move",
+  "_id": "UnleashPower001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you use a Device from the World Before, roll +Lore.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss (6-)",
+        "value": "<p>The device malfunctions catastrophically. It either breaks permanently or causes unintended harm.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Weak Hit (7-9)",
+        "value": "<p>The device works as intended, but choose one: it attracts unwanted attention, it requires a significant cost or sacrifice, or it will break after this use.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Strong Hit (10+)",
+        "value": "<p>The device works perfectly. It does exactly what you need it to do.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "stat",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "lore",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UnleashPower001"
+}

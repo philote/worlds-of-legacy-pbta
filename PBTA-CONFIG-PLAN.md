@@ -314,9 +314,33 @@ All text needs to be moved to `lang/en.json` with proper WOL namespace:
 - Resource types (surpluses/needs)
 
 ### Phase Implementation Strategy
-1. **Phase 1**: Implement basic character system with correct stats
-2. **Phase 2**: Add family actor type with basic functionality  
-3. **Phase 3**: Implement advanced resource management systems
-4. **Phase 4**: Add custom mechanics (treaties, wonders, ages)
+1. **✅ Phase 1**: Implement basic character system with correct stats
+2. **✅ Phase 2**: Add family actor type with basic functionality  
+3. **✅ Phase 3**: Add missing character basic moves
+4. **Phase 4**: Add missing family basic moves
+5. **Phase 5**: Implement Story & Scale moves
+6. **Phase 6**: Create equipment system with tags
+7. **Phase 7**: Add resource systems (Tech, Data, Treaty)
+8. **Phase 8**: Create example playbooks
+9. **Phase 9**: Implement advanced mechanics (harm improvements, wonders, fronts)
+
+## Phase 3 Completion Status ✅
+
+**Character Basic Moves Implemented:**
+- ✅ **Act Under Pressure** - Flexible stat usage for dangerous situations
+- ✅ **Face Danger** - Navigate threats (+Steel)
+- ✅ **Seek Insight** - Research and study (+Lore) 
+- ✅ **Persuade** - Convince others (+Sway)
+- ✅ **Clash** - Close combat (+Force)
+- ✅ **Defuse** - De-escalate situations (flexible stat)
+- ✅ **Unleash Power** - Use Devices from World Before (+Lore)
+- ✅ **Fiercely Assault** - Savage combat (+Force)
+- ✅ **Wasteland Survival** - Navigate dangerous terrain (+Steel)
+- ✅ **Find Common Ground** - Ask for cooperation (+Sway)
+- ✅ **Familiar Face** - Find contacts in settlements (+Sway)
+- ✅ **Call For Aid** - Help other characters after failed rolls
+- ✅ **Information is Power** - Spend Data for temporary advantages
+
+**Character Move Coverage:** 13+ basic moves implemented, providing comprehensive character-level gameplay coverage.
 
 This configuration will provide the foundation for Legacy's unique dual-scale PbtA gameplay while maintaining compatibility with the base PbtA system structure.

@@ -1,0 +1,52 @@
+{
+  "name": "Defuse",
+  "type": "move",
+  "_id": "Defuse001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you try to de-escalate a dangerous situation, roll with the most relevant stat. +Force to overcome through strength, +Lore to find the right words, +Steel to act under pressure, +Sway to win them over.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss (6-)",
+        "value": "<p>The situation escalates beyond your control. The GM will tell you how things get worse.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Weak Hit (7-9)",
+        "value": "<p>You defuse the immediate threat, but choose one: you make a costly concession, you only delay the inevitable, or you create a new complication.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Strong Hit (10+)",
+        "value": "<p>You successfully defuse the situation. Describe how you resolve the tension.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "ask",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Defuse001"
+}
