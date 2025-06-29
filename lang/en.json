@@ -13,9 +13,10 @@
                 "statsLabel": "Stats"
             },
             "stats": {
-                "one": "One",
-                "two": "Two",
-                "three": "Three"
+                "force": "Force",
+                "lore": "Lore", 
+                "steel": "Steel",
+                "sway": "Sway"
             },
             "statToggle": "Stat Toggle",
             "details": {
@@ -28,17 +29,16 @@
             },
             "attr": {
                 "xpLabel": "Experience",
-                "injuryLabel": "Injury",
-                "coinLabel": "Coin",
+                "harmLabel": "Harm",
+                "stressLabel": "Stress",
                 "conditions": {
                     "label": "Conditions",
-                    "description": "Conditions description",
+                    "description": "Mark conditions when affected by moves or circumstances",
                     "options": {
-                        "0": "Tired",
-                        "1": "Scared",
-                        "2": "Hurt",
-                        "3": "Angry",
-                        "4": "Confused"
+                        "0": "Angry",
+                        "1": "Afraid", 
+                        "2": "Ashamed",
+                        "3": "Corrupt"
                     }
                 }
             },

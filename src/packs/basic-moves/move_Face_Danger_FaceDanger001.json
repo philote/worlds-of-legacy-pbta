@@ -1,0 +1,53 @@
+{
+  "name": "Face Danger",
+  "type": "move",
+  "_id": "FaceDanger001",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you act despite an imminent threat or face a dangerous obstacle, roll +Steel.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss (6-)",
+        "value": "<p>You are delayed, harmed, or put in a dire spot. The GM will tell you how.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Weak Hit (7-9)", 
+        "value": "<p>You succeed, but face a troublesome cost. Choose one: you are delayed or put in danger, you expend resources, or you face a new complication.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Strong Hit (10+)",
+        "value": "<p>You overcome the danger and act.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "stat",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "steel",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FaceDanger001"
+}

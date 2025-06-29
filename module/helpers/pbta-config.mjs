@@ -44,16 +44,20 @@ export const configSheet = async () => {
         actorTypes: {
             character: {
                 stats: {
-                    one: {
-                        label: game.i18n.localize("WOL.CharacterSheets.stats.one"),
+                    force: {
+                        label: game.i18n.localize("WOL.CharacterSheets.stats.force"),
                         value: 0
                     },
-                    two: {
-                        label: game.i18n.localize("WOL.CharacterSheets.stats.two"),
+                    lore: {
+                        label: game.i18n.localize("WOL.CharacterSheets.stats.lore"),
                         value: 0
                     },
-                    three: {
-                        label: game.i18n.localize("WOL.CharacterSheets.stats.three"),
+                    steel: {
+                        label: game.i18n.localize("WOL.CharacterSheets.stats.steel"),
+                        value: 0
+                    },
+                    sway: {
+                        label: game.i18n.localize("WOL.CharacterSheets.stats.sway"),
                         value: 0
                     }
                 },
@@ -69,8 +73,8 @@ export const configSheet = async () => {
                         steps: Array(5).fill(false),
                         position: "Top"
                     },
-                    injury: {
-                        label: game.i18n.localize('WOL.CharacterSheets.attr.injuryLabel'),
+                    harm: {
+                        label: game.i18n.localize('WOL.CharacterSheets.attr.harmLabel'),
                         description: null,
                         customLabel: false,
                         userLabel: false,
@@ -79,15 +83,16 @@ export const configSheet = async () => {
                         max: 4,
                         steps: Array(4).fill(false),
                         position: 'Top',
-                      },
-                    coin: {
-                        label: game.i18n.localize('WOL.CharacterSheets.attr.coinLabel'),
+                    },
+                    stress: {
+                        label: game.i18n.localize('WOL.CharacterSheets.attr.stressLabel'),
                         description: null,
                         customLabel: false,
                         userLabel: false,
-                        type: 'Number',
+                        type: 'Clock',
                         value: 0,
-                        playbook: true,
+                        max: 4,
+                        steps: Array(4).fill(false),
                         position: 'Top',
                     },
                     conditions: {
@@ -113,10 +118,6 @@ export const configSheet = async () => {
                             },
                             3: {
                                 label: game.i18n.localize("WOL.CharacterSheets.attr.conditions.options.3"),
-                                value: false,
-                            },
-                            4: {
-                                label: game.i18n.localize("WOL.CharacterSheets.attr.conditions.options.4"),
                                 value: false,
                             },
                         },
