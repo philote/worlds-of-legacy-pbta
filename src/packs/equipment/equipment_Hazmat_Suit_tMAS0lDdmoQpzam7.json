@@ -1,7 +1,7 @@
 {
   "name": "Hazmat Suit",
   "type": "equipment",
-  "_id": "HazmatSuit001",
+  "_id": "tMAS0lDdmoQpzam7",
   "img": "icons/equipment/chest/shirt-simple-white.svg",
   "system": {
     "description": "<p>A full-body protective suit from the World Before, offering protection against environmental hazards.</p>",
@@ -51,5 +51,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!HazmatSuit001"
+  "_key": "!items!tMAS0lDdmoQpzam7"
 }

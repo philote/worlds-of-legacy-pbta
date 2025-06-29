@@ -1,7 +1,7 @@
 {
   "name": "Zoom Out",
   "type": "move",
-  "_id": "ZoomOut001",
+  "_id": "UFiwTzSq8Lv5ouu9",
   "img": "icons/svg/aura.svg",
   "system": {
     "description": "<p>When character-level scenes resolve or when you want to return to family-level play, shift perspective back to family scale. Describe the broader consequences of character actions.</p>",
@@ -48,5 +48,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!ZoomOut001"
+  "_key": "!items!UFiwTzSq8Lv5ouu9"
 }

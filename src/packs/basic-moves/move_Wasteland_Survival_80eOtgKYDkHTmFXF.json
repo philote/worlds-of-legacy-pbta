@@ -1,7 +1,7 @@
 {
   "name": "Wasteland Survival",
   "type": "move",
-  "_id": "WastelandSurvival001",
+  "_id": "80eOtgKYDkHTmFXF",
   "img": "icons/environment/wilderness/terrain-badlands-orange.svg",
   "system": {
     "description": "<p>When you navigate through the wasteland outside of settled lands, roll +Steel.</p>",
@@ -37,5 +37,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!WastelandSurvival001"
+  "_key": "!items!80eOtgKYDkHTmFXF"
 }

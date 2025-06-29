@@ -1,27 +1,27 @@
 {
-  "name": "In Want",
+  "name": "Lend Aid",
   "type": "move",
-  "_id": "InWant001",
+  "_id": "CxJuTH36eWbufR2F",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When your family has more Needs than Surpluses or faces a crisis that threatens survival, roll +Needs to see what desperate measures you must take.</p>",
+    "description": "<p>When you support another family with resources or assistance, roll +Treaty (the strength of your relationship with them).</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
         "label": "Miss (6-)",
-        "value": "<p>Desperation drives your family to extremes. The GM chooses two: your family fractures (take 2 Sleepers), you lose a significant asset, a rival takes advantage of your weakness, or you're forced into a terrible bargain.</p>"
+        "value": "<p>Your aid is insufficient or unwelcome. You strain the relationship and may create resentment or obligations.</p>"
       },
       "partial": {
         "key": "system.moveResults.partial.value",
         "label": "Weak Hit (7-9)",
-        "value": "<p>Your family struggles but survives. The GM chooses one: take 1 Sleepers, lose a minor asset, or accept a costly obligation. In return, you may address one of your Needs temporarily.</p>"
+        "value": "<p>Your aid helps them, but choose one: it costs you more than expected, they become dependent on your support, or other families notice and react.</p>"
       },
       "success": {
         "key": "system.moveResults.success.value",
         "label": "Strong Hit (10+)",
-        "value": "<p>Your family finds unexpected resources or allies. Address one of your Needs and improve your situation. You may also discover new opportunities born from adversity.</p>"
+        "value": "<p>Your aid strengthens them and your relationship. Both families benefit from the cooperation.</p>"
       }
     },
     "uses": 0,
@@ -48,5 +48,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!InWant001"
+  "_key": "!items!CxJuTH36eWbufR2F"
 }

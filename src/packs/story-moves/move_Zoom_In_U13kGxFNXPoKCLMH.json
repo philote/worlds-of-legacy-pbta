@@ -1,10 +1,10 @@
 {
-  "name": "Call in a Debt",
+  "name": "Zoom In",
   "type": "move",
-  "_id": "CallInADebt001",
+  "_id": "U13kGxFNXPoKCLMH",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you use your Treaty relationships to gain advantages, favors, or resources from allied families, describe what you need and how your relationship justifies it.</p>",
+    "description": "<p>When family-level action requires character-level resolution, or when you want to focus on critical personal moments, shift perspective to character play. Choose characters to play and set the scene.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
@@ -21,14 +21,14 @@
       "success": {
         "key": "system.moveResults.success.value",
         "label": "Effect",
-        "value": "<p>Reduce your Treaty with that family by 1. They provide what you requested, though they may expect reciprocation in the future.</p>"
+        "value": "<p>Switch to character-level play. Players take control of individual characters from their families. The outcome of character actions will affect family-level situations when you Zoom Out.</p>"
       }
     },
     "uses": 0,
     "playbook": "",
     "rollType": "ask",
     "rollMod": 0,
-    "actorType": "family",
+    "actorType": "",
     "choices": ""
   },
   "effects": [],
@@ -48,5 +48,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!CallInADebt001"
+  "_key": "!items!U13kGxFNXPoKCLMH"
 }

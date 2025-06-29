@@ -1,36 +1,35 @@
 {
-  "name": "Face Danger",
+  "name": "Right Tool for the Job",
   "type": "move",
-  "_id": "FaceDanger001",
+  "_id": "LVMTvPcGPxxCNzxI",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you act despite an imminent threat or face a dangerous obstacle, roll +Steel.</p>",
+    "description": "<p>When you have the right Surplus for a problem and spend it to solve the issue, describe how your resources resolve the situation without needing a roll.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
-        "label": "Miss (6-)",
-        "value": "<p>You are delayed, harmed, or put in a dire spot. The GM will tell you how.</p>"
+        "label": "",
+        "value": ""
       },
       "partial": {
         "key": "system.moveResults.partial.value",
-        "label": "Weak Hit (7-9)", 
-        "value": "<p>You succeed, but face a troublesome cost. Choose one: you are delayed or put in danger, you expend resources, or you face a new complication.</p>"
+        "label": "",
+        "value": ""
       },
       "success": {
         "key": "system.moveResults.success.value",
-        "label": "Strong Hit (10+)",
-        "value": "<p>You overcome the danger and act.</p>"
+        "label": "Effect",
+        "value": "<p>Spend the appropriate Surplus. The problem is resolved efficiently and completely. Your family's resources prove their worth.</p>"
       }
     },
     "uses": 0,
     "playbook": "",
-    "rollType": "stat",
+    "rollType": "ask",
     "rollMod": 0,
-    "actorType": "",
-    "stat": "steel",
-    "choices": ""
+    "actorType": "family",
+    "choices": "Examples: Weaponry to win a fight, Engineering to build something, Scouts to find information, Leadership to rally people, Safety to protect against hazards"
   },
   "effects": [],
   "folder": null,
@@ -49,5 +48,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!FaceDanger001"
+  "_key": "!items!LVMTvPcGPxxCNzxI"
 }

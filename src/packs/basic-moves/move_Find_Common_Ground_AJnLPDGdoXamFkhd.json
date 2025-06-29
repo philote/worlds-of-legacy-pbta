@@ -1,7 +1,7 @@
 {
   "name": "Find Common Ground",
   "type": "move",
-  "_id": "FindCommonGround001",
+  "_id": "AJnLPDGdoXamFkhd",
   "img": "icons/svg/aura.svg",
   "system": {
     "description": "<p>When you ask someone to work with you, roll +Sway. On a hit they'll do it if you meet their terms.</p>",
@@ -49,5 +49,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!FindCommonGround001"
+  "_key": "!items!AJnLPDGdoXamFkhd"
 }

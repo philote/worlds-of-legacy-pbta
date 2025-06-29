@@ -1,34 +1,35 @@
 {
-  "name": "Power Up",
+  "name": "Unleash Power",
   "type": "move",
-  "_id": "PowerUp001",
+  "_id": "Aid3GLybbnaL72u3",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you spend Tech (fragments of the old world) to gain advantage on a family roll, describe how the technology helps and take +1 Forward on your next family move.</p>",
+    "description": "<p>When you use a Device from the World Before, roll +Lore.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
-        "label": "",
-        "value": ""
+        "label": "Miss (6-)",
+        "value": "<p>The device malfunctions catastrophically. It either breaks permanently or causes unintended harm.</p>"
       },
       "partial": {
         "key": "system.moveResults.partial.value",
-        "label": "",
-        "value": ""
+        "label": "Weak Hit (7-9)",
+        "value": "<p>The device works as intended, but choose one: it attracts unwanted attention, it requires a significant cost or sacrifice, or it will break after this use.</p>"
       },
       "success": {
         "key": "system.moveResults.success.value",
-        "label": "Effect",
-        "value": "<p>Spend 1 Tech. Take +1 Forward on your next family move. The advanced technology gives you a significant advantage in the situation.</p>"
+        "label": "Strong Hit (10+)",
+        "value": "<p>The device works perfectly. It does exactly what you need it to do.</p>"
       }
     },
     "uses": 0,
     "playbook": "",
-    "rollType": "ask",
+    "rollType": "stat",
     "rollMod": 0,
-    "actorType": "family",
+    "actorType": "",
+    "stat": "lore",
     "choices": ""
   },
   "effects": [],
@@ -48,5 +49,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!PowerUp001"
+  "_key": "!items!Aid3GLybbnaL72u3"
 }

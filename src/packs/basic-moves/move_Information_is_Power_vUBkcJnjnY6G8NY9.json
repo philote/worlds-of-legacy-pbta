@@ -1,27 +1,27 @@
 {
-  "name": "Defuse",
+  "name": "Information is Power",
   "type": "move",
-  "_id": "Defuse001",
+  "_id": "vUBkcJnjnY6G8NY9",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you try to de-escalate a dangerous situation, roll with the most relevant stat. +Force to overcome through strength, +Lore to find the right words, +Steel to act under pressure, +Sway to win them over.</p>",
+    "description": "<p>When you spend Data (knowledge of secret truths) to gain advantage, choose one and describe how the information helps:</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
-        "label": "Miss (6-)",
-        "value": "<p>The situation escalates beyond your control. The GM will tell you how things get worse.</p>"
+        "label": "",
+        "value": ""
       },
       "partial": {
         "key": "system.moveResults.partial.value",
-        "label": "Weak Hit (7-9)",
-        "value": "<p>You defuse the immediate threat, but choose one: you make a costly concession, you only delay the inevitable, or you create a new complication.</p>"
+        "label": "",
+        "value": ""
       },
       "success": {
         "key": "system.moveResults.success.value",
-        "label": "Strong Hit (10+)",
-        "value": "<p>You successfully defuse the situation. Describe how you resolve the tension.</p>"
+        "label": "Choose One",
+        "value": "<p>• Take +1 Forward on your next roll<br/>• Ask the GM a specific question about the situation<br/>• Reveal a useful detail about someone or something<br/>• Create an opening or opportunity</p>"
       }
     },
     "uses": 0,
@@ -29,7 +29,7 @@
     "rollType": "ask",
     "rollMod": 0,
     "actorType": "",
-    "choices": ""
+    "choices": "• Take +1 Forward on your next roll\n• Ask the GM a specific question about the situation\n• Reveal a useful detail about someone or something\n• Create an opening or opportunity"
   },
   "effects": [],
   "folder": null,
@@ -48,5 +48,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!Defuse001"
+  "_key": "!items!vUBkcJnjnY6G8NY9"
 }

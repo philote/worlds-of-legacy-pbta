@@ -1,35 +1,35 @@
 {
-  "name": "Unleash Power",
+  "name": "Conduct Diplomacy",
   "type": "move",
-  "_id": "UnleashPower001",
+  "_id": "C0EzZe4saIuXrO7W",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you use a Device from the World Before, roll +Lore.</p>",
+    "description": "<p>When you call on your Family's allies, say what you want from them:</p><ul><li>A meeting with one of their VIPs.</li><li>Access to a tightly-guarded location or item.</li><li>Information on an opportunity or threat.</li></ul><p>Roll +Reach.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
         "label": "Miss (6-)",
-        "value": "<p>The device malfunctions catastrophically. It either breaks permanently or causes unintended harm.</p>"
+        "value": "<p>Your allies are unwilling or unable to help, and word of your request may reach unfriendly ears.</p>"
       },
       "partial": {
         "key": "system.moveResults.partial.value",
         "label": "Weak Hit (7-9)",
-        "value": "<p>The device works as intended, but choose one: it attracts unwanted attention, it requires a significant cost or sacrifice, or it will break after this use.</p>"
+        "value": "<p>On a 7-9, you get what you wanted and 1 Data. However, your agents had to get help from a third party. Say which of your allies helped them seal the deal, and give them 1-Treaty on you.</p>"
       },
       "success": {
         "key": "system.moveResults.success.value",
         "label": "Strong Hit (10+)",
-        "value": "<p>The device works perfectly. It does exactly what you need it to do.</p>"
+        "value": "<p>On a hit, you get what you wanted and 1 Data.</p>"
       }
     },
     "uses": 0,
     "playbook": "",
     "rollType": "stat",
     "rollMod": 0,
-    "actorType": "",
-    "stat": "lore",
+    "actorType": "family",
+    "stat": "reach",
     "choices": ""
   },
   "effects": [],
@@ -49,5 +49,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!UnleashPower001"
+  "_key": "!items!C0EzZe4saIuXrO7W"
 }

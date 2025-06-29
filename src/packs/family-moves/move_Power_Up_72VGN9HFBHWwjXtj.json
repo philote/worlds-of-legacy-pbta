@@ -1,10 +1,10 @@
 {
-  "name": "Right Tool for the Job",
+  "name": "Power Up",
   "type": "move",
-  "_id": "RightToolForTheJob001",
+  "_id": "72VGN9HFBHWwjXtj",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you have the right Surplus for a problem and spend it to solve the issue, describe how your resources resolve the situation without needing a roll.</p>",
+    "description": "<p>When you spend Tech (fragments of the old world) to gain advantage on a family roll, describe how the technology helps and take +1 Forward on your next family move.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
@@ -21,7 +21,7 @@
       "success": {
         "key": "system.moveResults.success.value",
         "label": "Effect",
-        "value": "<p>Spend the appropriate Surplus. The problem is resolved efficiently and completely. Your family's resources prove their worth.</p>"
+        "value": "<p>Spend 1 Tech. Take +1 Forward on your next family move. The advanced technology gives you a significant advantage in the situation.</p>"
       }
     },
     "uses": 0,
@@ -29,7 +29,7 @@
     "rollType": "ask",
     "rollMod": 0,
     "actorType": "family",
-    "choices": "Examples: Weaponry to win a fight, Engineering to build something, Scouts to find information, Leadership to rally people, Safety to protect against hazards"
+    "choices": ""
   },
   "effects": [],
   "folder": null,
@@ -48,5 +48,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!RightToolForTheJob001"
+  "_key": "!items!72VGN9HFBHWwjXtj"
 }

@@ -1,34 +1,34 @@
 {
-  "name": "Hold Together",
+  "name": "Call For Aid",
   "type": "move",
-  "_id": "HoldTogether001",
+  "_id": "BLx1OPlRIUjKWBnK",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When your family faces hardship, temptation, or infighting, roll +Mood.</p>",
+    "description": "<p>When another character fails a roll and you're in a position to help, you can step in to assist them. Describe how you help and both of you take +1 Forward on your next rolls.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
-        "label": "Miss (6-)",
-        "value": "<p>Your family fractures. Take 1 Sleepers and reduce Mood by 1. The GM will tell you how the family's unity suffers.</p>"
+        "label": "",
+        "value": ""
       },
       "partial": {
         "key": "system.moveResults.partial.value",
-        "label": "Weak Hit (7-9)",
-        "value": "<p>Your family weathers the crisis, but choose one: take 1 Sleepers, reduce Mood by 1, or accept a costly compromise to maintain unity.</p>"
+        "label": "",
+        "value": ""
       },
       "success": {
         "key": "system.moveResults.success.value",
-        "label": "Strong Hit (10+)",
-        "value": "<p>Your family stands strong together. You may also choose to increase Mood by 1 if this crisis brought you closer together.</p>"
+        "label": "Effect",
+        "value": "<p>You and the character you're helping both take +1 Forward on your next rolls. Describe how your aid changes the situation.</p>"
       }
     },
     "uses": 0,
     "playbook": "",
     "rollType": "ask",
     "rollMod": 0,
-    "actorType": "family",
+    "actorType": "",
     "choices": ""
   },
   "effects": [],
@@ -48,5 +48,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!HoldTogether001"
+  "_key": "!items!BLx1OPlRIUjKWBnK"
 }

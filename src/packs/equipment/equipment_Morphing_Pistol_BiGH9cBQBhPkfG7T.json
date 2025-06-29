@@ -1,12 +1,12 @@
 {
-  "name": "High-Powered Rifle",
+  "name": "Morphing Pistol",
   "type": "equipment",
-  "_id": "HighPoweredRifle001",
-  "img": "icons/weapons/guns/rifle-scope-brown.svg",
+  "_id": "BiGH9cBQBhPkfG7T",
+  "img": "icons/weapons/guns/pistol-brown.svg",
   "system": {
-    "description": "<p>A precision rifle with extreme range capabilities, mentioned specifically in the SRD.</p>",
+    "description": "<p>A weapon that can shift its shape to avoid detection, mentioned specifically in the SRD.</p>",
     "equipmentType": "armoury",
-    "harm": 3,
+    "harm": 2,
     "armor": 0,
     "uses": 0,
     "forward": 0,
@@ -28,14 +28,9 @@
         "description": "WOL.Tags.equipment.ranged.description"
       },
       {
-        "name": "Far",
-        "value": "WOL.Tags.equipment.far.value",
-        "description": "WOL.Tags.equipment.far.description"
-      },
-      {
-        "name": "Elegant",
-        "value": "WOL.Tags.equipment.elegant.value",
-        "description": "WOL.Tags.equipment.elegant.description"
+        "name": "Hidden",
+        "value": "WOL.Tags.equipment.hidden.value",
+        "description": "WOL.Tags.equipment.hidden.description"
       }
     ]
   },
@@ -56,5 +51,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!HighPoweredRifle001"
+  "_key": "!items!BiGH9cBQBhPkfG7T"
 }

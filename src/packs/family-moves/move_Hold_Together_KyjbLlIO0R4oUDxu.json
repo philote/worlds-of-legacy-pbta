@@ -1,27 +1,27 @@
 {
-  "name": "The Age Turns",
+  "name": "Hold Together",
   "type": "move",
-  "_id": "TheAgeTurns001",
+  "_id": "KyjbLlIO0R4oUDxu",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When significant time passes (months or years) or when major changes shake the world, roll +Mood to see how your family adapts.</p>",
+    "description": "<p>When your family faces hardship, temptation, or infighting, roll +Mood.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
         "label": "Miss (6-)",
-        "value": "<p>The changing times are hard on your family. Choose two: reduce a stat by 1, take 2 Sleepers, lose a significant asset, or face a serious crisis that threatens family unity.</p>"
+        "value": "<p>Your family fractures. Take 1 Sleepers and reduce Mood by 1. The GM will tell you how the family's unity suffers.</p>"
       },
       "partial": {
         "key": "system.moveResults.partial.value",
         "label": "Weak Hit (7-9)",
-        "value": "<p>Your family weathers the changes with some difficulty. Choose one: reduce a stat by 1, take 1 Sleepers, or lose a minor asset. Then choose one benefit: increase a different stat by 1, improve Mood by 1, or gain a new opportunity.</p>"
+        "value": "<p>Your family weathers the crisis, but choose one: take 1 Sleepers, reduce Mood by 1, or accept a costly compromise to maintain unity.</p>"
       },
       "success": {
         "key": "system.moveResults.success.value",
         "label": "Strong Hit (10+)",
-        "value": "<p>Your family thrives in the changing world. Choose two: increase a stat by 1, improve Mood by 1, gain a significant asset, or unlock a new family move. Characters may also retire and be replaced by the next generation.</p>"
+        "value": "<p>Your family stands strong together. You may also choose to increase Mood by 1 if this crisis brought you closer together.</p>"
       }
     },
     "uses": 0,
@@ -48,5 +48,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!TheAgeTurns001"
+  "_key": "!items!KyjbLlIO0R4oUDxu"
 }

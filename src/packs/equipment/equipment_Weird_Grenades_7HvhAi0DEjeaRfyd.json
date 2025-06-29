@@ -1,7 +1,7 @@
 {
   "name": "Weird Grenades",
   "type": "equipment",
-  "_id": "WeirdGrenades001",
+  "_id": "7HvhAi0DEjeaRfyd",
   "img": "icons/weapons/thrown/bomb-fuse-steel.svg",
   "system": {
     "description": "<p>Strange explosive devices with unpredictable effects, mentioned specifically in the SRD.</p>",
@@ -56,5 +56,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!WeirdGrenades001"
+  "_key": "!items!7HvhAi0DEjeaRfyd"
 }

@@ -1,7 +1,7 @@
 {
   "name": "Playbook Test",
   "type": "playbook",
-  "_id": "Pl1yh0PK1bI4ArhE",
+  "_id": "B4P3TxdLSKCZKDOx",
   "img": "icons/svg/book.svg",
   "system": {
     "description": "",
@@ -103,5 +103,5 @@
     "modifiedTime": 1733426186085,
     "lastModifiedBy": "e3BWK32GQZOdbFw4"
   },
-  "_key": "!items!Pl1yh0PK1bI4ArhE"
+  "_key": "!items!B4P3TxdLSKCZKDOx"
 }

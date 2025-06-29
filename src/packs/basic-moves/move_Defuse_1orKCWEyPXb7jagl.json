@@ -1,27 +1,27 @@
 {
-  "name": "Call For Aid",
+  "name": "Defuse",
   "type": "move",
-  "_id": "CallForAid001",
+  "_id": "1orKCWEyPXb7jagl",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When another character fails a roll and you're in a position to help, you can step in to assist them. Describe how you help and both of you take +1 Forward on your next rolls.</p>",
+    "description": "<p>When you try to de-escalate a dangerous situation, roll with the most relevant stat. +Force to overcome through strength, +Lore to find the right words, +Steel to act under pressure, +Sway to win them over.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
-        "label": "",
-        "value": ""
+        "label": "Miss (6-)",
+        "value": "<p>The situation escalates beyond your control. The GM will tell you how things get worse.</p>"
       },
       "partial": {
         "key": "system.moveResults.partial.value",
-        "label": "",
-        "value": ""
+        "label": "Weak Hit (7-9)",
+        "value": "<p>You defuse the immediate threat, but choose one: you make a costly concession, you only delay the inevitable, or you create a new complication.</p>"
       },
       "success": {
         "key": "system.moveResults.success.value",
-        "label": "Effect",
-        "value": "<p>You and the character you're helping both take +1 Forward on your next rolls. Describe how your aid changes the situation.</p>"
+        "label": "Strong Hit (10+)",
+        "value": "<p>You successfully defuse the situation. Describe how you resolve the tension.</p>"
       }
     },
     "uses": 0,
@@ -48,5 +48,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!CallForAid001"
+  "_key": "!items!1orKCWEyPXb7jagl"
 }

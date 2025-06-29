@@ -1,34 +1,35 @@
 {
-  "name": "Zoom In",
+  "name": "Face Danger",
   "type": "move",
-  "_id": "ZoomIn001",
+  "_id": "tBdmM91Ex4mPRN9e",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When family-level action requires character-level resolution, or when you want to focus on critical personal moments, shift perspective to character play. Choose characters to play and set the scene.</p>",
+    "description": "<p>When you act despite an imminent threat or face a dangerous obstacle, roll +Steel.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
       "failure": {
         "key": "system.moveResults.failure.value",
-        "label": "",
-        "value": ""
+        "label": "Miss (6-)",
+        "value": "<p>You are delayed, harmed, or put in a dire spot. The GM will tell you how.</p>"
       },
       "partial": {
         "key": "system.moveResults.partial.value",
-        "label": "",
-        "value": ""
+        "label": "Weak Hit (7-9)",
+        "value": "<p>You succeed, but face a troublesome cost. Choose one: you are delayed or put in danger, you expend resources, or you face a new complication.</p>"
       },
       "success": {
         "key": "system.moveResults.success.value",
-        "label": "Effect",
-        "value": "<p>Switch to character-level play. Players take control of individual characters from their families. The outcome of character actions will affect family-level situations when you Zoom Out.</p>"
+        "label": "Strong Hit (10+)",
+        "value": "<p>You overcome the danger and act.</p>"
       }
     },
     "uses": 0,
     "playbook": "",
-    "rollType": "ask",
+    "rollType": "stat",
     "rollMod": 0,
     "actorType": "",
+    "stat": "steel",
     "choices": ""
   },
   "effects": [],
@@ -48,5 +49,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!ZoomIn001"
+  "_key": "!items!tBdmM91Ex4mPRN9e"
 }

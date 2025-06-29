@@ -1,10 +1,10 @@
 {
-  "name": "Information is Power",
+  "name": "Finding a Surplus",
   "type": "move",
-  "_id": "InformationIsPower001",
+  "_id": "VIzhg16dFzjd2sBx",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>When you spend Data (knowledge of secret truths) to gain advantage, choose one and describe how the information helps:</p>",
+    "description": "<p>When your family successfully creates, claims, or discovers new resources, add them to your Surpluses. Describe what you've gained and how it strengthens your family.</p>",
     "moveType": "basic",
     "rollFormula": "",
     "moveResults": {
@@ -20,16 +20,16 @@
       },
       "success": {
         "key": "system.moveResults.success.value",
-        "label": "Choose One",
-        "value": "<p>• Take +1 Forward on your next roll<br/>• Ask the GM a specific question about the situation<br/>• Reveal a useful detail about someone or something<br/>• Create an opening or opportunity</p>"
+        "label": "Effect",
+        "value": "<p>Add a new Surplus to your family sheet. Examples: Artisans, Barter Goods, Crops, Defences, Engineering, Leadership, Morale, Progress, Recruits, Safety, Scouts, Trade, Weaponry.</p>"
       }
     },
     "uses": 0,
     "playbook": "",
     "rollType": "ask",
     "rollMod": 0,
-    "actorType": "",
-    "choices": "• Take +1 Forward on your next roll\n• Ask the GM a specific question about the situation\n• Reveal a useful detail about someone or something\n• Create an opening or opportunity"
+    "actorType": "family",
+    "choices": ""
   },
   "effects": [],
   "folder": null,
@@ -48,5 +48,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!InformationIsPower001"
+  "_key": "!items!VIzhg16dFzjd2sBx"
 }

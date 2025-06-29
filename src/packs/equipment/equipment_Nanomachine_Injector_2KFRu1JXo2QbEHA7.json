@@ -1,7 +1,7 @@
 {
   "name": "Blood-borne Nanomachines",
   "type": "equipment",
-  "_id": "NanomachineInjector001",
+  "_id": "2KFRu1JXo2QbEHA7",
   "img": "icons/tools/scribal/ink-bottle.svg",
   "system": {
     "description": "<p>Microscopic machines that integrate with your bloodstream, mentioned specifically in the SRD.</p>",
@@ -51,5 +51,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!NanomachineInjector001"
+  "_key": "!items!2KFRu1JXo2QbEHA7"
 }

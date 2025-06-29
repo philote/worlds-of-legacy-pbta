@@ -1,14 +1,14 @@
 {
-  "name": "Scout Report",
+  "name": "Veteran Bodyguard",
   "type": "equipment",
-  "_id": "ScoutReport001",
-  "img": "icons/sundries/documents/document-sealed-brown.svg",
+  "_id": "Ca6AB4s2o3y7ShXE",
+  "img": "icons/environment/people/commoner.svg",
   "system": {
-    "description": "<p>Detailed intelligence on local terrain, threats, and opportunities gathered by family scouts.</p>",
-    "equipmentType": "intel",
+    "description": "<p>A seasoned warrior who has sworn to protect you. Quality +2, Specialty: Combat and Intimidation.</p>",
+    "equipmentType": "followers",
     "harm": 0,
     "armor": 0,
-    "uses": 1,
+    "uses": 0,
     "forward": 0,
     "ongoing": 0,
     "hold": 0,
@@ -40,5 +40,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!ScoutReport001"
+  "_key": "!items!Ca6AB4s2o3y7ShXE"
 }

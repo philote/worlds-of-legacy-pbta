@@ -1,7 +1,7 @@
 {
   "name": "Fiercely Assault",
   "type": "move",
-  "_id": "FiercelyAssault001",
+  "_id": "XZaNGZ46Kv49Ac9u",
   "img": "icons/svg/aura.svg",
   "system": {
     "description": "<p>When you use an appropriate weapon to hurt, capture or drive off your enemies, roll +Force. On a hit, you've achieved your goal: they're wounded, bound or fleeing.</p>",
@@ -49,5 +49,5 @@
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "_key": "!items!FiercelyAssault001"
+  "_key": "!items!XZaNGZ46Kv49Ac9u"
 }
