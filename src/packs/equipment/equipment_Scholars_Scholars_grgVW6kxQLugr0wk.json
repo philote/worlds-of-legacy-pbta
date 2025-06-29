@@ -1,0 +1,44 @@
+{
+  "name": "Scholars",
+  "type": "equipment",
+  "_id": "grgVW6kxQLugr0wk",
+  "img": "icons/environment/people/group.svg",
+  "system": {
+    "description": "<p>Academic specialists with 1 Quality in Researching, mentioned specifically in the SRD.</p>",
+    "equipmentType": "followers",
+    "harm": 0,
+    "armor": 0,
+    "uses": 0,
+    "forward": 0,
+    "ongoing": 0,
+    "hold": 0,
+    "rollFormula": "",
+    "rollMode": "ask",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "",
+    "attribute": "",
+    "moveResults": {},
+    "choices": "",
+    "tags": "[{\"value\":\"WOL.Tags.equipment.quality.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.quality.description\"},{\"value\":\"WOL.Tags.equipment.researching.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.researching.description\"}]"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!grgVW6kxQLugr0wk"
+}

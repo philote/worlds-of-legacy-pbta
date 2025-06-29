@@ -1,0 +1,44 @@
+{
+  "name": "Dagger",
+  "type": "equipment",
+  "_id": "ZCegWWRaMpeCroYS",
+  "img": "icons/weapons/daggers/dagger-straight-blue.svg",
+  "system": {
+    "description": "<p>A small blade for close combat, mentioned as an example in the SRD.</p>",
+    "equipmentType": "armoury",
+    "harm": 1,
+    "armor": 0,
+    "uses": 0,
+    "forward": 0,
+    "ongoing": 0,
+    "hold": 0,
+    "rollFormula": "",
+    "rollMode": "ask",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "",
+    "attribute": "",
+    "moveResults": {},
+    "choices": "",
+    "tags": "[{\"value\":\"WOL.Tags.equipment.melee.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.melee.description\"},{\"value\":\"WOL.Tags.equipment.hidden.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.hidden.description\"}]"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZCegWWRaMpeCroYS"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Mobile ICU",
+  "type": "equipment",
+  "_id": "MlAI2eJC7bXd3aE9",
+  "img": "icons/vehicles/land/truck-enclosed-red.svg",
+  "system": {
+    "description": "<p>A mobile intensive care unit with medical facilities, mentioned specifically in the SRD.</p>",
+    "equipmentType": "vehicles",
+    "harm": 0,
+    "armor": 0,
+    "uses": 0,
+    "forward": 0,
+    "ongoing": 0,
+    "hold": 0,
+    "rollFormula": "",
+    "rollMode": "ask",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "",
+    "attribute": "",
+    "moveResults": {},
+    "choices": "",
+    "tags": "[{\"value\":\"WOL.Tags.equipment.land.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.land.description\"},{\"value\":\"WOL.Tags.equipment.medbay.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.medbay.description\"}]"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!MlAI2eJC7bXd3aE9"
+}

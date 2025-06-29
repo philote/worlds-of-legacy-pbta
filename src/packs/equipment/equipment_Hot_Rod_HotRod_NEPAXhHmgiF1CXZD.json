@@ -1,0 +1,44 @@
+{
+  "name": "Hot Rod",
+  "type": "equipment",
+  "_id": "NEPAXhHmgiF1CXZD",
+  "img": "icons/vehicles/land/car-convertible-yellow.svg",
+  "system": {
+    "description": "<p>A fast vehicle with swift tag plus one changeable tag, mentioned in the Inheritance Move.</p>",
+    "equipmentType": "vehicles",
+    "harm": 0,
+    "armor": 0,
+    "uses": 0,
+    "forward": 0,
+    "ongoing": 0,
+    "hold": 0,
+    "rollFormula": "",
+    "rollMode": "ask",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "",
+    "attribute": "",
+    "moveResults": {},
+    "choices": "",
+    "tags": "[{\"value\":\"WOL.Tags.equipment.land.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.land.description\"},{\"value\":\"WOL.Tags.equipment.swift.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.swift.description\"}]"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!NEPAXhHmgiF1CXZD"
+}

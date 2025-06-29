@@ -1,0 +1,44 @@
+{
+  "name": "Orbital Laser Cannon",
+  "type": "equipment",
+  "_id": "ZAvprGPh3XetNTX7",
+  "img": "icons/weapons/artillery/cannon-triple-barrel.svg",
+  "system": {
+    "description": "<p>A devastating orbital weapon system, mentioned as an example in the SRD.</p>",
+    "equipmentType": "armoury",
+    "harm": 4,
+    "armor": 0,
+    "uses": 0,
+    "forward": 0,
+    "ongoing": 0,
+    "hold": 0,
+    "rollFormula": "",
+    "rollMode": "ask",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "",
+    "attribute": "",
+    "moveResults": {},
+    "choices": "",
+    "tags": "[{\"value\":\"WOL.Tags.equipment.ranged.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.ranged.description\"},{\"value\":\"WOL.Tags.equipment.area.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.area.description\"},{\"value\":\"WOL.Tags.equipment.brutal.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.brutal.description\"}]"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZAvprGPh3XetNTX7"
+}

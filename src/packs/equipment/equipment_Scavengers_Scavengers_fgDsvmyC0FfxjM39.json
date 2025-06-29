@@ -1,0 +1,44 @@
+{
+  "name": "Scavengers",
+  "type": "equipment",
+  "_id": "fgDsvmyC0FfxjM39",
+  "img": "icons/environment/people/commoner.svg",
+  "system": {
+    "description": "<p>Specialists in picking through junk with 1 Quality, mentioned specifically in the SRD.</p>",
+    "equipmentType": "followers",
+    "harm": 0,
+    "armor": 0,
+    "uses": 0,
+    "forward": 0,
+    "ongoing": 0,
+    "hold": 0,
+    "rollFormula": "",
+    "rollMode": "ask",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "",
+    "attribute": "",
+    "moveResults": {},
+    "choices": "",
+    "tags": "[{\"value\":\"WOL.Tags.equipment.quality.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.quality.description\"}]"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!fgDsvmyC0FfxjM39"
+}

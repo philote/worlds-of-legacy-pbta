@@ -25,7 +25,9 @@ function generate16CharUUID() {
 function isValid16CharUUID(id) {
     if (!id || id.length !== 16) return false;
     const validChars = /^[A-Za-z0-9]+$/;
-    return validChars.test(id);
+    // Also exclude common patterns that aren't proper UUIDs
+    const invalidPatterns = [/\d{3}$/, /^[A-Z][a-z]+/]; // ends with 3 digits, starts with capitalized word
+    return validChars.test(id) && !invalidPatterns.some(pattern => pattern.test(id));
 }
 
 // Process a single JSON file

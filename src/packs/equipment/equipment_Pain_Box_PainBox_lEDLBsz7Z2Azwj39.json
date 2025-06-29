@@ -1,0 +1,44 @@
+{
+  "name": "Pain Box",
+  "type": "equipment",
+  "_id": "lEDLBsz7Z2Azwj39",
+  "img": "icons/magic/control/fear-fright-shadow-monster.svg",
+  "system": {
+    "description": "<p>A device that inflicts non-lethal but debilitating pain over an area, mentioned in the Inheritance Move.</p>",
+    "equipmentType": "devices",
+    "harm": 1,
+    "armor": 0,
+    "uses": 0,
+    "forward": 0,
+    "ongoing": 0,
+    "hold": 0,
+    "rollFormula": "",
+    "rollMode": "ask",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "stat": "",
+    "attribute": "",
+    "moveResults": {},
+    "choices": "",
+    "tags": "[{\"value\":\"WOL.Tags.equipment.melee.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.melee.description\"},{\"value\":\"WOL.Tags.equipment.non-lethal.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.non-lethal.description\"},{\"value\":\"WOL.Tags.equipment.area.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.area.description\"},{\"value\":\"WOL.Tags.equipment.aberrant.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.aberrant.description\"}]"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.0.0",
+    "coreVersion": "13.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!lEDLBsz7Z2Azwj39"
+}
