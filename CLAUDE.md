@@ -13,6 +13,7 @@ This is a Foundry VTT module for the "Worlds of Legacy" PbtA (Powered by the Apo
 - `npm run pushLDBtoJSON` - Extract FoundryVTT LevelDB packs to JSON files in src/packs/
 - `npm run pullJSONtoLDB` - Compile JSON files from src/packs/ back to LevelDB format
 - `npm run createSymlinks` - Create symlinks for development workflow
+- `node tools/generate-uuids.mjs` - Generate 16-character UUIDs for all pack items
 
 ## Architecture
 
@@ -68,7 +69,7 @@ The `foundry/` directory contains symlinked files from the target FoundryVTT ins
 
 ## Project Context
 
-**Current Status**: This project was built from a PbtA Module Template and renamed to Worlds of Legacy. The data and structure are not yet ready for gameplay - this is the beginning of development.
+**Current Status**: Core system implementation completed through comprehensive development phases. The module now contains authentic Legacy: Life Among the Ruins content with proper dual-scale gameplay support.
 
 **Primary Goal**: Create a complete Legacy: Life Among the Ruins system implementation using the PbtA framework.
 
@@ -80,13 +81,79 @@ The `foundry/` directory contains symlinked files from the target FoundryVTT ins
   - https://github.com/philote/urban-shadows-pbta
   - https://github.com/philote/fellowship-pbta
 
-**Development Priority**:
-1. Create proper system structure in `module/helpers/pbta-config.mjs` based on Legacy SRD
-2. Customize PbtA sheets to accommodate unique Legacy data (dual-scale Family/Character gameplay)
-3. Build out compendium content (moves, playbooks, etc.)
+**Implemented Features**:
+1. ✅ Dual-scale gameplay: Character and Family actor types
+2. ✅ Authentic Legacy stats and attributes 
+3. ✅ Complete move system from SRD
+4. ✅ Comprehensive equipment tag system
+5. ✅ Resource tracking (Tech, Data, Treaty, Surplus/Need)
+6. ✅ 16-character UUID system for all pack items
+
+**Next Steps**:
+- Phase 8: Create example playbooks (The Firebrand character, The Enclave family)
+- Phase 9: Implement advanced harm system and role advancement mechanics
+
+## Implementation Details
+
+### Legacy-Specific System Design
+
+**Dual-Scale Gameplay**:
+- **Character Stats**: Force, Lore, Steel, Sway (not the typical PbtA stats)
+- **Family Stats**: Reach, Grasp, Sleight (unique 3-stat system)
+- **Character Attributes**: Only Harm (5 boxes) - no XP, stress, or conditions
+- **Family Resources**: Tech, Data, Treaty (numbers), Surplus/Need (text), Mood, Age
+
+**Move System Architecture**:
+- **rollType** options: "stat", "ask", "prompt" ONLY (not "attribute")
+- Legacy uses unique choice mechanics (player picks vs GM picks in Fiercely Assault)
+- Some moves gain resources (Data from Conduct Diplomacy, Treaty costs)
+- Story moves enable dual-scale transitions (Zoom In/Out)
+
+**Equipment Tag System**:
+- Legacy uses extensive tag-based equipment (24+ tags implemented)
+- Tags define weapon/armor properties rather than static stats
+- Equipment examples from SRD: Morphing Pistol, Weird Grenades, Blood-borne Nanomachines
+
+### Critical Technical Learnings
+
+**UUID Requirements**:
+- All pack items MUST use exactly 16-character alphanumeric UUIDs
+- Pattern: `_id: "AbC123Xyz789QRST"`, `_key: "!items!AbC123Xyz789QRST"`
+- Filenames must include UUID: `move_Call_For_Aid_BLx1OPlRIUjKWBnK.json`
+
+**Content Authenticity**:
+- ALL content must be verified against `raw-assets/book/Worlds-of-Legacy-SRD.md`
+- Common hallucination risks: inventing moves, attributes, equipment not in SRD
+- Legacy has unique systems that differ from other PbtA games
+
+**PbtA System Integration**:
+- Configuration via `game.pbta.sheetConfig` in `pbta-config.mjs`
+- Tag system uses JSON string format for equipment tags
+- Family vs Character actors require separate move/equipment configurations
+
+### Pack Structure
+
+**Current Packs** (30 items total):
+- `basic-moves/` - 9 character moves (verified against SRD)
+- `family-moves/` - 7 family moves (verified against SRD)  
+- `story-moves/` - 6 dual-scale transition moves (verified against SRD)
+- `equipment/` - 7 example items with proper tags (verified against SRD)
+- `playbooks/` - 1 placeholder (needs Phase 8 implementation)
+
+### Development Phases Completed
+
+**Phases 1-7**: Core system implementation
+**Cleanup Phases 1-5**: Systematic removal of hallucinated content
+- Removed 5 character moves that don't exist in Legacy
+- Removed 5 family moves that don't exist in Legacy  
+- Fixed 4 moves with incorrect implementations
+- Removed 4 hallucinated equipment items
+- Removed stress, conditions, XP, and character doctrine attributes
 
 ## Important Notes
 - Never edit files in `packs/` directly - they're generated from `src/packs/`
 - Never edit files in `css/` directly - they're generated from `src/scss/`
 - The module heavily customizes the PbtA system - changes should respect this integration
 - PbtA wiki examples are in TOML format, but this project uses JSON - research needed for conversion
+- ALWAYS verify new content against the SRD to prevent hallucination
+- Legacy uses unique mechanics that differ significantly from other PbtA games
