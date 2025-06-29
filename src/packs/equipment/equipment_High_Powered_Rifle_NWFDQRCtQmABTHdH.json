@@ -21,7 +21,7 @@
     "attribute": "",
     "moveResults": {},
     "choices": "",
-    "tags": "[{\"value\":\"[object Object],[object Object],[object Object]\"}]"
+    "tags": "[{\"value\":\"WOL.Tags.equipment.far.value\",\"editable\":false,\"description\":\"WOL.Tags.equipment.far.description\"},{\"value\":\"Finesse\"}]"
   },
   "effects": [],
   "folder": null,
@@ -35,7 +35,7 @@
     "systemVersion": "1.1.21",
     "coreVersion": "13.346",
     "createdTime": null,
-    "modifiedTime": 1751222420821,
+    "modifiedTime": 1751222869007,
     "lastModifiedBy": "q7HY4F5kwpqoNudH",
     "compendiumSource": null,
     "duplicateSource": null,
