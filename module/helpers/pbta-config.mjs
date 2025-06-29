@@ -1,18 +1,7 @@
 export const configSheet = async () => {
     // Pass module sheet object to sheetConfig
     game.pbta.sheetConfig = {
-        // skipAttributeGrant: true,
         rollFormula: "2d6",
-        // rollShifting: true,
-        // statShifting: {
-        //     label: game.i18n.localize("WOL.CharacterSheets.shiftStats.label"),
-        //     img: "systems/pbta/assets/icons/svg/back-forth.svg",
-        //     value: 1,
-        //     labels: {
-        //         stat: game.i18n.localize("WOL.CharacterSheets.shiftStats.statLabel"),
-        //         stats: game.i18n.localize("WOL.CharacterSheets.shiftStats.statsLabel"),
-        //     },
-        // },
         statToggle: {
             label: game.i18n.localize("WOL.CharacterSheets.statToggle"),
             modifier: 0
@@ -367,6 +356,7 @@ export const tagConfig = {
             '{"value":"WOL.Tags.equipment.non-lethal.value", "editable":false, "description":"WOL.Tags.equipment.non-lethal.description"}, ' +
             '{"value":"WOL.Tags.equipment.silent.value", "editable":false, "description":"WOL.Tags.equipment.silent.description"}, ' +
             '{"value":"WOL.Tags.equipment.unreliable.value", "editable":false, "description":"WOL.Tags.equipment.unreliable.description"}, ' +
+            '{"value":"WOL.Tags.equipment.finesse.value", "editable":false, "description":"WOL.Tags.equipment.finesse.description"}, ' +
             // Outfit (Armor/Clothing) Tags
             '{"value":"WOL.Tags.equipment.camo.value", "editable":false, "description":"WOL.Tags.equipment.camo.description"}, ' +
             '{"value":"WOL.Tags.equipment.regal.value", "editable":false, "description":"WOL.Tags.equipment.regal.description"}, ' +

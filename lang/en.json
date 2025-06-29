@@ -138,6 +138,10 @@
                     "value": "Unreliable",
                     "description": "May malfunction or break"
                 },
+                "finesse": {
+                    "value": "Finesse",
+                    "description": "in a subtle and delicate manner"
+                },
                 "camo": {
                     "value": "Camo",
                     "description": "Provides concealment"
