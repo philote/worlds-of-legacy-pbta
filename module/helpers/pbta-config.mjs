@@ -3,16 +3,16 @@ export const configSheet = async () => {
     game.pbta.sheetConfig = {
         // skipAttributeGrant: true,
         rollFormula: "2d6",
-        rollShifting: true,
-        statShifting: {
-            label: game.i18n.localize("WOL.CharacterSheets.shiftStats.label"),
-            img: "systems/pbta/assets/icons/svg/back-forth.svg",
-            value: 1,
-            labels: {
-                stat: game.i18n.localize("WOL.CharacterSheets.shiftStats.statLabel"),
-                stats: game.i18n.localize("WOL.CharacterSheets.shiftStats.statsLabel"),
-            },
-        },
+        // rollShifting: true,
+        // statShifting: {
+        //     label: game.i18n.localize("WOL.CharacterSheets.shiftStats.label"),
+        //     img: "systems/pbta/assets/icons/svg/back-forth.svg",
+        //     value: 1,
+        //     labels: {
+        //         stat: game.i18n.localize("WOL.CharacterSheets.shiftStats.statLabel"),
+        //         stats: game.i18n.localize("WOL.CharacterSheets.shiftStats.statsLabel"),
+        //     },
+        // },
         statToggle: {
             label: game.i18n.localize("WOL.CharacterSheets.statToggle"),
             modifier: 0
@@ -390,13 +390,13 @@ export const configSheet = async () => {
  */
 export function pbtaSettings() {
     // Hides forward input on character sheets.
-    game.settings.set('pbta', 'hideForward', false);
+    game.settings.set('pbta', 'hideForward', true);
     // Hides ongoing input on character sheets.
-    game.settings.set('pbta', 'hideOngoing', false);
+    game.settings.set('pbta', 'hideOngoing', true);
     // Hides uses remaining for each move on the move's summary for characters and NPCs.
-    game.settings.set('pbta', 'hideUses', false);
+    game.settings.set('pbta', 'hideUses', true);
     // Hides custom roll formula input on character sheets.
-    game.settings.set('pbta', 'hideRollFormula', false);
+    game.settings.set('pbta', 'hideRollFormula', true);
     // Hides roll mode override (normal/advantage/disadvantage) on character sheets.
     game.settings.set('pbta', 'hideRollMode', false);
     // If enabled, advantage and disadvantage choices on the character sheet will be reset to normal after each roll (similar to Forward).
@@ -405,7 +405,7 @@ export function pbtaSettings() {
     game.settings.set('pbta', 'hideHold', false);
     if (game.settings.settings.has('pbta.hideAdvancement')) {
         //Hides the Advancements in the actor sheet. Any option that isn't \"None\" also hides the \"(Advancement #)\" on the Actors sidebar.
-        game.settings.set('pbta', 'hideAdvancement', false);
+        game.settings.set('pbta', 'hideAdvancement', true);
     }
 };
 
