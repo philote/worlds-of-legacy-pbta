@@ -262,17 +262,6 @@ export const configSheet = async () => {
                         value: 0,
                         position: "Top"
                     },
-                    sleepers: {
-                        label: game.i18n.localize("WOL.FamilySheets.attr.sleepersLabel"),
-                        description: null,
-                        customLabel: false,
-                        userLabel: false,
-                        type: "Clock",
-                        value: 0,
-                        max: 4,
-                        steps: Array(4).fill(false),
-                        position: "Top"
-                    },
                     tech: {
                         label: game.i18n.localize("WOL.FamilySheets.attr.techLabel"),
                         description: null,

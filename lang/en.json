@@ -76,7 +76,6 @@
             },
             "attr": {
                 "moodLabel": "Mood",
-                "sleepersLabel": "Sleepers",
                 "ageLabel": "Age",
                 "age": {
                     "options": {
