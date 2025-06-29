@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { randomBytes } from 'crypto';
-import { readdir, readFile, writeFile, rename } from 'fs/promises';
+import { readdir, readFile, writeFile, rename, unlink } from 'fs/promises';
 import { join, dirname, basename } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -62,11 +62,7 @@ async function processFile(filePath) {
         data._id = newUUID;
         data._key = `!items!${newUUID}`;
         
-        // Write updated JSON back to file
-        const updatedContent = JSON.stringify(data, null, 2);
-        await writeFile(filePath, updatedContent, 'utf8');
-        
-        // Generate new filename
+        // Generate new filename BEFORE writing
         const dir = dirname(filePath);
         const oldFilename = basename(filePath);
         let newFilename;
@@ -77,15 +73,26 @@ async function processFile(filePath) {
         } else {
             // Add UUID to filename if it doesn't contain any ID
             const nameWithoutExt = oldFilename.replace('.json', '');
-            newFilename = `${nameWithoutExt}_${newUUID}.json`;
+            // Check if filename already has a UUID pattern to avoid duplicates
+            if (nameWithoutExt.match(/_[A-Za-z0-9]{16}$/)) {
+                newFilename = oldFilename; // Already has UUID, keep as is
+            } else {
+                newFilename = `${nameWithoutExt}_${newUUID}.json`;
+            }
         }
         
         const newFilePath = join(dir, newFilename);
+        const updatedContent = JSON.stringify(data, null, 2);
         
-        // Rename file if it needs to be renamed
+        // Write to the correct final path
         if (oldFilename !== newFilename) {
-            await rename(filePath, newFilePath);
+            // Write to new location and remove old file
+            await writeFile(newFilePath, updatedContent, 'utf8');
+            // Delete the old file
+            await unlink(filePath);
             console.log(`  Renamed: ${oldFilename} -> ${newFilename}`);
+        } else {
+            await writeFile(filePath, updatedContent, 'utf8');
         }
         
         console.log(`  Updated ID: ${oldId} -> ${newUUID}`);
